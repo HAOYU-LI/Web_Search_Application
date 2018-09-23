@@ -12,10 +12,11 @@ class pdf_downloader:
         url_content = requests.get(url, stream = True)
         pdf_path = os.path.join(self.save_path, file_name)
 
-        with open(pdf_path, 'wb') as pdf:
-            for chunk in url_content.iter_content(chunk_size = 1024):
-                if chunk:
-                    pdf.write(chunk)
+        if not os.path.exists(pdf_path):
+            with open(pdf_path, 'wb') as pdf:
+                for chunk in url_content.iter_content(chunk_size = 1024):
+                    if chunk:
+                        pdf.write(chunk)
 
     def download_pdf(self):
         if self.urls is None or len(self.urls) == 0:
