@@ -1,0 +1,32 @@
+!SESSION 2018-10-13 09:50:24.034 -----------------------------------------------
+eclipse.buildId=4.6.2.M20161124-1400
+java.version=1.8.0_111
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/lihaoyu/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/lihaoyu/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2018-10-13 09:51:24.080
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.epp.mpc.ui 1 0 2018-10-13 11:25:44.596
+!MESSAGE Performing Marketplace install request from http://marketplace.eclipse.org/marketplace-client-intro?mpc_install=27025
+
+!ENTRY org.eclipse.core.jobs 2 2 2018-10-13 11:26:07.153
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.equinox.internal.p2.ui.sdk.scheduler.AutomaticUpdater$6
+!SESSION 2018-10-13 11:26:07.465 -----------------------------------------------
+eclipse.buildId=4.6.2.M20161124-1400
+java.version=1.8.0_111
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -keyring /Users/lihaoyu/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -data file:/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/src/metadata/ -product org.eclipse.epp.package.java.product -keyring /Users/lihaoyu/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2018-10-13 11:26:13.428
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.ui 4 4 2018-10-13 11:28:50.051
+!MESSAGE Conflicting handlers for org.eclipse.ui.navigate.backwardHistory: {ActionHandler(org.eclipse.ui.internal.NavigationHistoryAction@7112fa5)} vs {ActionHandler(org.eclipse.ui.internal.dialogs.PreferencePageHistory$1@10587ce5)}
+
+!ENTRY org.eclipse.ui 4 4 2018-10-13 11:31:05.295
+!MESSAGE Conflicting handlers for org.eclipse.ui.navigate.backwardHistory: {ActionHandler(org.eclipse.ui.internal.NavigationHistoryAction@7112fa5)} vs {ActionHandler(org.eclipse.ui.internal.dialogs.PreferencePageHistory$1@ae094e8)}

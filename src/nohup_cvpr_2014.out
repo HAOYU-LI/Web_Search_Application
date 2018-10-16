@@ -1,0 +1,542 @@
+  0%|          | 0/540 [00:00<?, ?it/s]  0%|          | 1/540 [00:07<1:09:53,  7.78s/it]  0%|          | 2/540 [00:12<1:02:03,  6.92s/it]  1%|          | 3/540 [00:13<45:12,  5.05s/it]    1%|          | 4/540 [00:15<37:12,  4.17s/it]  1%|          | 5/540 [00:28<1:00:23,  6.77s/it]  1%|          | 6/540 [00:34<59:00,  6.63s/it]    1%|▏         | 7/540 [00:38<52:16,  5.88s/it]  1%|▏         | 8/540 [00:42<46:10,  5.21s/it]  2%|▏         | 9/540 [00:43<34:14,  3.87s/it]  2%|▏         | 10/540 [00:51<46:32,  5.27s/it]  2%|▏         | 11/540 [00:52<35:10,  3.99s/it]  2%|▏         | 12/540 [00:55<32:05,  3.65s/it]  2%|▏         | 13/540 [00:58<30:11,  3.44s/it]  3%|▎         | 14/540 [00:59<23:54,  2.73s/it]  3%|▎         | 15/540 [01:06<34:26,  3.94s/it]  3%|▎         | 16/540 [01:07<27:40,  3.17s/it]  3%|▎         | 17/540 [01:16<42:17,  4.85s/it]  3%|▎         | 18/540 [01:17<32:03,  3.68s/it]  4%|▎         | 19/540 [01:22<34:53,  4.02s/it]  4%|▎         | 20/540 [01:25<31:55,  3.68s/it]  4%|▍         | 21/540 [01:29<32:28,  3.75s/it]  4%|▍         | 22/540 [01:34<36:38,  4.24s/it]  4%|▍         | 23/540 [01:36<30:56,  3.59s/it]  4%|▍         | 24/540 [01:49<53:59,  6.28s/it]  5%|▍         | 25/540 [01:50<41:07,  4.79s/it]  5%|▍         | 26/540 [01:52<34:21,  4.01s/it]  5%|▌         | 27/540 [01:53<26:21,  3.08s/it]  5%|▌         | 28/540 [01:59<33:24,  3.92s/it]  5%|▌         | 29/540 [01:59<24:55,  2.93s/it]  6%|▌         | 30/540 [02:10<44:28,  5.23s/it]  6%|▌         | 31/540 [02:30<1:22:09,  9.69s/it]  6%|▌         | 32/540 [02:31<59:57,  7.08s/it]    6%|▌         | 33/540 [02:34<49:48,  5.89s/it]  6%|▋         | 34/540 [02:35<35:54,  4.26s/it]  6%|▋         | 35/540 [02:36<28:23,  3.37s/it]  7%|▋         | 36/540 [02:38<24:57,  2.97s/it]  7%|▋         | 37/540 [02:41<25:20,  3.02s/it]  7%|▋         | 38/540 [02:52<45:47,  5.47s/it]  7%|▋         | 39/540 [02:57<44:17,  5.30s/it]  7%|▋         | 40/540 [03:00<38:37,  4.63s/it]  8%|▊         | 41/540 [03:03<32:37,  3.92s/it]  8%|▊         | 42/540 [03:05<29:02,  3.50s/it]  8%|▊         | 43/540 [03:06<22:42,  2.74s/it]  8%|▊         | 44/540 [03:08<20:41,  2.50s/it]  8%|▊         | 45/540 [03:09<16:30,  2.00s/it]  9%|▊         | 46/540 [03:12<18:48,  2.28s/it]  9%|▊         | 47/540 [03:13<15:47,  1.92s/it]  9%|▉         | 48/540 [03:19<27:02,  3.30s/it]  9%|▉         | 49/540 [03:32<50:03,  6.12s/it]  9%|▉         | 50/540 [03:38<50:07,  6.14s/it]  9%|▉         | 51/540 [03:40<38:07,  4.68s/it] 10%|▉         | 52/540 [03:57<1:09:30,  8.55s/it] 10%|▉         | 53/540 [03:59<53:39,  6.61s/it]   10%|█         | 54/540 [04:03<45:31,  5.62s/it] 10%|█         | 55/540 [04:04<34:11,  4.23s/it] 10%|█         | 56/540 [04:04<25:17,  3.13s/it] 11%|█         | 57/540 [04:05<19:48,  2.46s/it] 11%|█         | 58/540 [04:08<22:06,  2.75s/it] 11%|█         | 59/540 [04:09<16:56,  2.11s/it] 11%|█         | 60/540 [04:22<41:57,  5.24s/it] 11%|█▏        | 61/540 [04:22<30:58,  3.88s/it] 11%|█▏        | 62/540 [04:26<29:34,  3.71s/it] 12%|█▏        | 63/540 [04:27<24:21,  3.06s/it]/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Cheng_Fast_and_Accurate_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Hartmann_Predicting_Matchability_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Ponce_Trinocular_Geometry_Revisited_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Wu_Critical_Configurations_For_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Kuang_Minimal_Solvers_for_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Vicente_Reconstructing_PASCAL_VOC_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Galasso_Spectral_Graph_Reduction_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Liu_Weakly_Supervised_Multiclass_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Luo_Video_Motion_Segmentation_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Beier_Cut_Glue__2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Bulo_Neural_Decision_Forests_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Ladicky_Pulling_Things_out_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Xu_Event_Detection_using_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Liwicki_Full-Angle_Quaternions_for_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Borji_Human_vs._Computer_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Mahmood_Semi-supervised_Spectral_Clustering_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Rezaei_Look_at_the_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Gardner_Measuring_Distance_Between_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Zhao_Learning_Mid-level_Filters_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Li_DeepReID_Deep_Filter_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Quan_Lacunarity_Analysis_on_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Trulls_Segmentation-aware_Deformable_Part_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Hall_From_Categories_to_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Kalayeh_NMF-KNN_Image_Annotation_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Yu_Fine-Grained_Visual_Comparisons_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Chen_Inferring_Analogous_Attributes_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Liang_Beyond_Comparing_Image_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Joo_Visual_Persuasion_Inferring_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Voravuthikunchai_Histograms_of_Pattern_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Izadinia_Incorporating_Scene_Context_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Yumer_Co-Segmentation_of_Textured_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Margolin_How_to_Evaluate_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Wu_MILCut_A_Sweeping_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Li_SCAMS_Simultaneous_Clustering_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Kae_The_Shape-Time_Random_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Li_The_Secrets_of_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Nascimento_Non-rigid_Segmentation_using_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/He_An_Exemplar-based_CRF_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Stein_Object_Partitioning_using_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Bryner_Bayesian_Active_Contours_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Yang_Max-Margin_Boltzmann_Machines_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Arbelaez_Multiscale_Combinatorial_Grouping_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Humayun_RIGOR_Reusing_Inference_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Hickson_Efficient_Hierarchical_Graph-Based_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Lian_Point_Matching_in_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Chang_Multiple_Structured-Instance_Learning_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Mumtaz_Joint_Motion_Segmentation_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Ramakanth_SeamSeg_Video_Object_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Casaca_Laplacian_Coordinates_for_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Bai_Error-tolerant_Scribbles_Based_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Subbanna_Iterative_Multilevel_MRF_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Jensen_Large_Scale_Multi-view_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Tung_Timing-Based_Local_Descriptor_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Ventura_A_Minimal_Solution_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Zheng_A_General_and_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Kuang_Partial_Symmetry_in_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Kneip_Efficient_Computation_of_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Zhou_Simultaneous_Localization_and_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Cao_Minimal_Scene_Descriptions_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Bodis-Szomoru_Fast_Approximate_Piecewise-Planar_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Nasihatkon_On_Projective_Reconstruction_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Wang_Stereo_under_Sequential_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Habed_Efficient_Pruning_LMI_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Ferraz_Very_Fast_Solution_2014_CVPR_paper.pdf 12%|█▏        | 64/540 [04:28<19:33,  2.47s/it] 12%|█▏        | 65/540 [04:33<25:56,  3.28s/it] 12%|█▏        | 66/540 [04:34<19:58,  2.53s/it] 12%|█▏        | 67/540 [04:40<27:56,  3.54s/it] 13%|█▎        | 68/540 [04:42<22:47,  2.90s/it] 13%|█▎        | 69/540 [04:44<21:34,  2.75s/it] 13%|█▎        | 70/540 [04:45<16:26,  2.10s/it] 13%|█▎        | 71/540 [05:20<1:33:56, 12.02s/it] 13%|█▎        | 72/540 [05:21<1:09:24,  8.90s/it] 14%|█▎        | 73/540 [05:23<51:42,  6.64s/it]   14%|█▎        | 74/540 [05:24<39:36,  5.10s/it] 14%|█▍        | 75/540 [05:25<29:51,  3.85s/it] 14%|█▍        | 76/540 [05:26<22:31,  2.91s/it] 14%|█▍        | 77/540 [05:27<17:48,  2.31s/it] 14%|█▍        | 78/540 [05:28<15:42,  2.04s/it] 15%|█▍        | 79/540 [05:29<13:04,  1.70s/it] 15%|█▍        | 80/540 [06:18<2:01:02, 15.79s/it] 15%|█▌        | 81/540 [06:27<1:46:05, 13.87s/it] 15%|█▌        | 82/540 [06:31<1:22:56, 10.87s/it] 15%|█▌        | 83/540 [06:40<1:18:08, 10.26s/it] 16%|█▌        | 84/540 [06:41<58:25,  7.69s/it]   16%|█▌        | 85/540 [07:03<1:29:13, 11.77s/it] 16%|█▌        | 86/540 [07:11<1:20:11, 10.60s/it] 16%|█▌        | 87/540 [07:11<57:52,  7.66s/it]   16%|█▋        | 88/540 [07:14<46:31,  6.18s/it] 16%|█▋        | 89/540 [07:17<39:43,  5.28s/it] 17%|█▋        | 90/540 [07:20<32:42,  4.36s/it] 17%|█▋        | 91/540 [07:23<30:51,  4.12s/it] 17%|█▋        | 92/540 [07:24<23:48,  3.19s/it] 17%|█▋        | 93/540 [07:27<22:19,  3.00s/it] 17%|█▋        | 94/540 [07:30<23:29,  3.16s/it] 18%|█▊        | 95/540 [07:34<24:24,  3.29s/it] 18%|█▊        | 96/540 [07:38<25:48,  3.49s/it] 18%|█▊        | 97/540 [07:39<19:43,  2.67s/it] 18%|█▊        | 98/540 [07:39<15:32,  2.11s/it] 18%|█▊        | 99/540 [07:40<12:15,  1.67s/it] 19%|█▊        | 100/540 [07:52<35:49,  4.89s/it] 19%|█▊        | 101/540 [07:54<27:38,  3.78s/it] 19%|█▉        | 102/540 [07:54<21:19,  2.92s/it] 19%|█▉        | 103/540 [07:58<21:53,  3.01s/it] 19%|█▉        | 104/540 [07:59<17:49,  2.45s/it] 19%|█▉        | 105/540 [08:01<16:27,  2.27s/it] 20%|█▉        | 106/540 [08:03<15:53,  2.20s/it] 20%|█▉        | 107/540 [08:04<14:39,  2.03s/it] 20%|██        | 108/540 [08:07<16:02,  2.23s/it] 20%|██        | 109/540 [08:09<16:01,  2.23s/it] 20%|██        | 110/540 [08:16<25:53,  3.61s/it] 21%|██        | 111/540 [08:17<19:35,  2.74s/it] 21%|██        | 112/540 [08:21<23:23,  3.28s/it] 21%|██        | 113/540 [08:24<20:54,  2.94s/it] 21%|██        | 114/540 [08:28<23:51,  3.36s/it] 21%|██▏       | 115/540 [08:29<18:15,  2.58s/it] 21%|██▏       | 116/540 [08:33<21:29,  3.04s/it] 22%|██▏       | 117/540 [08:35<19:29,  2.76s/it] 22%|██▏       | 118/540 [08:35<14:49,  2.11s/it] 22%|██▏       | 119/540 [08:36<11:25,  1.63s/it] 22%|██▏       | 120/540 [08:37<09:46,  1.40s/it] 22%|██▏       | 121/540 [08:48<29:50,  4.27s/it] 23%|██▎       | 122/540 [08:49<22:39,  3.25s/it] 23%|██▎       | 123/540 [08:49<17:08,  2.47s/it] 23%|██▎       | 124/540 [08:50<12:54,  1.86s/it] 23%|██▎       | 125/540 [09:02<34:30,  4.99s/it] 23%|██▎       | 126/540 [09:03<26:23,  3.82s/it] 24%|██▎       | 127/540 [09:05<21:29,  3.12s/it]
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Lezama_Finding_Vanishing_Points_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Donoser_Discriminative_Feature-to-Point_Matching_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Chen_Two-View_Camera_Housing_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Svarm_Accurate_Localization_and_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Lee_Relative_Pose_Estimation_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Nowozin_Optimal_Decisions_from_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Guillemot_Covariance_Trees_for_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Aodha_Hierarchical_Subquery_Evaluation_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Karayev_Anytime_Recognition_of_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Girshick_Rich_Feature_Hierarchies_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Vemulapalli_Human_Action_Recognition_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Cai_Multi-View_Super_Vector_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Jones_Unsupervised_Spectral_Dual_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Pirsiavash_Parsing_Videos_of_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Su_Rate-Invariant_Analysis_of_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Cabral_Piecewise_Planar_and_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Zhang_Data-driven_Flower_Petal_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Taylor_User-Specific_Hand_Modeling_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Hane_Class_Specific_3D_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Liu_Frequency-Based_3D_Reconstruction_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Perbet_Human_Body_Shape_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Zhang_Quality_Dynamic_Human_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Liu_Single-View_3D_Scene_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Zou_Separation_of_Line_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Zhang_When_3D_Reconstruction_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Chhatkuli_Stable_Template-Based_Isometric_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Liu_Discrete-Continuous_Depth_Estimation_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Wu_Leveraging_Hierarchical_Parametric_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Siddharth_Seeing_What_Youre_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Jain_Action_Localization_with_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Chen_Actionness_Ranking_with_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Ni_Multiple_Granularity_Analysis_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Sultani_Human_Action_Recognition_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Lu_Range-Sample_Depth_Feature_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Kuehne_The_Language_of_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Swears_Complex_Activity_Recognition_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Hasan_Incremental_Activity_Modeling_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Yang_Super_Normal_Vector_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Lillo_Discriminative_Hierarchical_Modeling_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Jones_A_Multigraph_Representation_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Tapaswi_StoryGraphs_Visualizing_Character_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Xu_Learning_Receptive_Fields_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Dong_Towards_Unified_Human_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Fanello_Ask_the_Image_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Wah_Similarity_Comparisons_for_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Hoffman_Continuous_Manifold_Based_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Hoai_Talking_Heads_Detecting_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Kim_Salient_Region_Detection_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Mottaghi_The_Role_of_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Luo_Switchable_Deep_Network_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Zhang_Compact_Representation_for_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Zhu_Capturing_Long-tail_Distributions_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Schulter_Accurate_Object_Detection_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Babenko_Additive_Quantization_for_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Ge_Product_Sparse_Coding_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Zhang_Informed_Haar-like_Features_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Kato_Image_Reconstruction_from_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Ni_Beta_Process_Multiple_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Yang_Random_Laplace_Feature_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Mu_Hash-SVM_Scalable_Kernel_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Yu_Transitive_Distance_Clustering_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Tonde_Simultaneous_Twin_Kernel_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Harandi_Bregman_Divergences_for_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Behl_Optimizing_Average_Precision_2014_CVPR_paper.pdf 24%|██▎       | 128/540 [09:06<16:58,  2.47s/it] 24%|██▍       | 129/540 [09:07<14:11,  2.07s/it] 24%|██▍       | 130/540 [09:07<11:20,  1.66s/it] 24%|██▍       | 131/540 [09:09<11:44,  1.72s/it] 24%|██▍       | 132/540 [09:12<13:07,  1.93s/it] 25%|██▍       | 133/540 [09:14<13:11,  1.94s/it] 25%|██▍       | 134/540 [09:15<11:39,  1.72s/it] 25%|██▌       | 135/540 [09:15<09:19,  1.38s/it] 25%|██▌       | 136/540 [09:16<07:25,  1.10s/it] 25%|██▌       | 137/540 [09:16<06:21,  1.06it/s] 26%|██▌       | 138/540 [09:18<06:40,  1.00it/s] 26%|██▌       | 139/540 [09:24<17:33,  2.63s/it] 26%|██▌       | 140/540 [09:25<14:32,  2.18s/it] 26%|██▌       | 141/540 [09:29<18:09,  2.73s/it] 26%|██▋       | 142/540 [09:45<44:29,  6.71s/it] 26%|██▋       | 143/540 [09:46<32:31,  4.91s/it] 27%|██▋       | 144/540 [09:47<24:25,  3.70s/it] 27%|██▋       | 145/540 [10:05<53:44,  8.16s/it] 27%|██▋       | 146/540 [10:07<40:24,  6.15s/it] 27%|██▋       | 147/540 [10:08<30:04,  4.59s/it] 27%|██▋       | 148/540 [10:09<22:35,  3.46s/it] 28%|██▊       | 149/540 [10:12<23:13,  3.56s/it] 28%|██▊       | 150/540 [10:14<19:17,  2.97s/it] 28%|██▊       | 151/540 [10:18<21:44,  3.35s/it] 28%|██▊       | 152/540 [10:45<1:07:13, 10.40s/it] 28%|██▊       | 153/540 [10:48<52:45,  8.18s/it]   29%|██▊       | 154/540 [11:09<1:17:04, 11.98s/it] 29%|██▊       | 155/540 [11:11<57:37,  8.98s/it]   29%|██▉       | 156/540 [11:12<41:43,  6.52s/it] 29%|██▉       | 157/540 [11:13<31:25,  4.92s/it] 29%|██▉       | 158/540 [11:14<23:53,  3.75s/it] 29%|██▉       | 159/540 [11:21<30:36,  4.82s/it] 30%|██▉       | 160/540 [11:48<1:11:48, 11.34s/it] 30%|██▉       | 161/540 [11:54<1:02:19,  9.87s/it] 30%|███       | 162/540 [12:03<1:00:23,  9.59s/it] 30%|███       | 163/540 [12:07<49:56,  7.95s/it]   30%|███       | 164/540 [12:10<39:22,  6.28s/it] 31%|███       | 165/540 [12:11<30:13,  4.84s/it] 31%|███       | 166/540 [12:12<22:44,  3.65s/it] 31%|███       | 167/540 [12:17<24:50,  4.00s/it] 31%|███       | 168/540 [12:17<18:24,  2.97s/it] 31%|███▏      | 169/540 [12:18<14:03,  2.27s/it] 31%|███▏      | 170/540 [12:19<11:50,  1.92s/it] 32%|███▏      | 171/540 [12:20<09:26,  1.53s/it] 32%|███▏      | 172/540 [12:32<28:52,  4.71s/it] 32%|███▏      | 173/540 [12:33<22:19,  3.65s/it] 32%|███▏      | 174/540 [12:36<21:31,  3.53s/it] 32%|███▏      | 175/540 [12:37<16:16,  2.67s/it] 33%|███▎      | 176/540 [12:40<17:17,  2.85s/it] 33%|███▎      | 177/540 [12:41<13:08,  2.17s/it] 33%|███▎      | 178/540 [12:42<10:33,  1.75s/it] 33%|███▎      | 179/540 [12:42<08:40,  1.44s/it] 33%|███▎      | 180/540 [12:52<22:59,  3.83s/it] 34%|███▎      | 181/540 [12:52<17:04,  2.85s/it] 34%|███▎      | 182/540 [12:55<16:57,  2.84s/it] 34%|███▍      | 183/540 [12:56<12:56,  2.17s/it] 34%|███▍      | 184/540 [12:57<11:10,  1.88s/it] 34%|███▍      | 185/540 [13:06<23:31,  3.98s/it] 34%|███▍      | 186/540 [13:06<17:40,  3.00s/it] 35%|███▍      | 187/540 [13:10<19:15,  3.27s/it] 35%|███▍      | 188/540 [13:36<58:57, 10.05s/it] 35%|███▌      | 189/540 [13:45<56:02,  9.58s/it] 35%|███▌      | 190/540 [13:58<1:03:03, 10.81s/it] 35%|███▌      | 191/540 [14:23<1:27:32, 15.05s/it] 36%|███▌      | 192/540 [14:28<1:09:17, 11.95s/it]
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Tierney_Subspace_Clustering_for_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Chen_Predicting_Multiple_Attributes_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Xie_Learning_Inhomogeneous_FRAME_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Premachandran_Empirical_Minimum_Bayes_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Law_Fantope_Regularization_in_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Snape_Kernel-PCA_Analysis_of_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Nikitidis_Merging_SVMs_with_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Zhang_Stable_Learning_in_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Marrinan_Finding_the_Subspace_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Danelljan_Adaptive_Color_Attributes_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Sun_Local_Layering_for_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Qian_Realtime_and_Robust_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Guzman-Rivera_Multi-Output_Learning_for_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Joo_MAP_Visibility_Estimation_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Chen_Multi-Object_Tracking_via_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Fix_A_Primal-Dual_Algorithm_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Isack_Energy_Based_Multi-model_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Gorelick_Submodularization_for_Binary_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Shekhovtsov_Maximum_Persistency_in_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Swoboda_Partial_Optimality_by_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Roy_Scene_Labeling_Using_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Prokaj_Persistent_Tracking_for_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Lan_Multi-Cue_Visual_Tracking_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Tan_Multi-Forest_Tracker_A_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Jung_Rigid_Motion_Segmentation_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Bae_Robust_Online_Multi-Object_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Zhang_Pyramid-based_Visual_Tracking_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Wang_Tracklet_Association_with_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Chen_An_Online_Learned_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Luo_Diversity-Enhanced_Condensation_Algorithm_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Zhang_Partial_Occlusion_Handling_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Zhang_Speeding_Up_Tracking_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Berger_Subspace_Tracking_under_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Wen_Multiple_Target_Tracking_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Luo_Bi-label_Propagation_for_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Yang_A_Probabilistic_Framework_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Possegger_Occlusion_Geodesics_for_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Lehrmann_Efficient_Nonlinear_Markov_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Mobahi_A_Compositional_Model_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Zach_A_Principled_Approach_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Arora_Fast_Approximate_Inference_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Arora_Multi_Label_Generic_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Kim_Scanline_Sampler_without_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Ishikawa_Higher-Order_Clique_Reduction_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Zheng_Topic_Modeling_of_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Freifeld_Model_Transport_Towards_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Wang_Learning_Fine-grained_Image_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Zhang_Attributed_Graph_Mining_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Sydorov_Deep_Fisher_Kernels_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Long_Transfer_Joint_Matching_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Chen_Recognizing_RGB_Images_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Haase_Instance-weighted_Transfer_Learning_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Lapin_Scalable_Multitask_Representation_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Patricia_Learning_to_Learn_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Zhu_Constructing_Robust_Affinity_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Kurlin_A_Fast_and_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Tang_Co-localization_in_Real-World_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Ghoshdastidar_Spectral_Clustering_with_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Chen_Fast_and_Robust_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Delaunoy_Photometric_Bundle_Adjustment_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Serra_The_Photometry_of_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Tsiminaki_High_Resolution_3D_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Zheng_PatchMatch_Based_Joint_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Chen_Light_Field_Stereo_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Xu_Recovering_Surface_Details_2014_CVPR_paper.pdf 36%|███▌      | 193/540 [14:30<51:36,  8.92s/it]   36%|███▌      | 194/540 [14:35<43:58,  7.63s/it] 36%|███▌      | 195/540 [14:43<46:05,  8.02s/it] 36%|███▋      | 196/540 [14:44<33:35,  5.86s/it] 36%|███▋      | 197/540 [14:47<28:55,  5.06s/it] 37%|███▋      | 198/540 [14:49<22:03,  3.87s/it] 37%|███▋      | 199/540 [14:49<16:24,  2.89s/it] 37%|███▋      | 200/540 [15:04<36:54,  6.51s/it] 37%|███▋      | 201/540 [15:05<27:44,  4.91s/it] 37%|███▋      | 202/540 [15:21<46:40,  8.29s/it] 38%|███▊      | 203/540 [15:23<34:50,  6.20s/it] 38%|███▊      | 204/540 [15:26<28:54,  5.16s/it] 38%|███▊      | 205/540 [15:27<22:02,  3.95s/it] 38%|███▊      | 206/540 [15:31<21:50,  3.92s/it] 38%|███▊      | 207/540 [15:33<18:41,  3.37s/it] 39%|███▊      | 208/540 [15:34<14:44,  2.66s/it] 39%|███▊      | 209/540 [15:35<12:27,  2.26s/it] 39%|███▉      | 210/540 [15:36<10:26,  1.90s/it] 39%|███▉      | 211/540 [15:38<10:29,  1.91s/it] 39%|███▉      | 212/540 [15:39<08:52,  1.62s/it] 39%|███▉      | 213/540 [15:41<08:48,  1.62s/it] 40%|███▉      | 214/540 [15:41<07:17,  1.34s/it] 40%|███▉      | 215/540 [15:43<07:59,  1.48s/it] 40%|████      | 216/540 [15:47<11:16,  2.09s/it] 40%|████      | 217/540 [15:48<10:03,  1.87s/it] 40%|████      | 218/540 [15:49<08:41,  1.62s/it] 41%|████      | 219/540 [15:54<13:54,  2.60s/it] 41%|████      | 220/540 [15:55<11:49,  2.22s/it] 41%|████      | 221/540 [15:56<09:18,  1.75s/it] 41%|████      | 222/540 [16:00<12:25,  2.34s/it] 41%|████▏     | 223/540 [16:01<10:25,  1.97s/it] 41%|████▏     | 224/540 [16:02<09:47,  1.86s/it] 42%|████▏     | 225/540 [16:22<38:24,  7.32s/it] 42%|████▏     | 226/540 [16:28<36:28,  6.97s/it] 42%|████▏     | 227/540 [16:36<37:02,  7.10s/it] 42%|████▏     | 228/540 [16:37<28:08,  5.41s/it] 42%|████▏     | 229/540 [16:39<22:51,  4.41s/it] 43%|████▎     | 230/540 [16:40<17:12,  3.33s/it] 43%|████▎     | 231/540 [16:42<14:50,  2.88s/it] 43%|████▎     | 232/540 [16:43<11:15,  2.19s/it] 43%|████▎     | 233/540 [16:46<13:26,  2.63s/it] 43%|████▎     | 234/540 [16:50<14:45,  2.89s/it] 44%|████▎     | 235/540 [16:51<11:47,  2.32s/it] 44%|████▎     | 236/540 [16:55<14:34,  2.88s/it] 44%|████▍     | 237/540 [16:56<11:48,  2.34s/it] 44%|████▍     | 238/540 [16:57<10:00,  1.99s/it] 44%|████▍     | 239/540 [17:11<27:41,  5.52s/it] 44%|████▍     | 240/540 [17:26<41:55,  8.38s/it] 45%|████▍     | 241/540 [17:27<31:13,  6.27s/it] 45%|████▍     | 242/540 [17:28<23:29,  4.73s/it] 45%|████▌     | 243/540 [17:29<17:41,  3.57s/it] 45%|████▌     | 244/540 [17:39<26:26,  5.36s/it] 45%|████▌     | 245/540 [17:39<19:22,  3.94s/it] 46%|████▌     | 246/540 [17:41<15:13,  3.11s/it] 46%|████▌     | 247/540 [17:41<11:23,  2.33s/it] 46%|████▌     | 248/540 [17:42<08:57,  1.84s/it] 46%|████▌     | 249/540 [17:46<11:50,  2.44s/it] 46%|████▋     | 250/540 [17:50<15:07,  3.13s/it] 46%|████▋     | 251/540 [17:53<13:33,  2.81s/it] 47%|████▋     | 252/540 [17:54<11:51,  2.47s/it] 47%|████▋     | 253/540 [18:07<26:02,  5.44s/it] 47%|████▋     | 254/540 [18:13<27:45,  5.82s/it] 47%|████▋     | 255/540 [18:17<25:15,  5.32s/it] 47%|████▋     | 256/540 [18:22<23:32,  4.97s/it]
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Kostrikov_Probabilistic_Labeling_Cost_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Zhu_Complex_Non-Rigid_Motion_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Lee_A_Procrustean_Markov_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Agudo_Good_Vibrations_A_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Song_Robust_Scale_Estimation_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Tron_On_the_Quotient_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Sinha_Efficient_High-Resolution_Stereo_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Zhang_Cross-Scale_Cost_Aggregation_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Tao_Asymmetrical_Gauss_Mixture_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Fredriksson_Fast_and_Reliable_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Taniai_Graph_Cut_based_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Spyropoulos_Learning_to_Detect_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Jayaraman_Decorrelating_Semantic_Visual_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Zhang_PANDA_Pose_Aligned_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Feng_Learning_Scalable_Discriminative_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Toshev_DeepPose_Human_Pose_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Ionescu_Iterated_Second-Order_Label_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Belagiannis_3D_Pictorial_Structures_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Huang_Learning_Euclidean-to-Riemannian_Metric_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Ren_Face_Alignment_at_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Parkhi_A_Compact_and_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Taigman_DeepFace_Closing_the_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Fanello_Filter_Forests_for_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Oquab_Learning_and_Transferring_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Karpathy_Large-scale_Video_Classification_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Kang_Convolutional_Neural_Networks_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Smith_Nonparametric_Context_Modeling_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Liu_Learning_Expressionlets_on_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Dehghan_Who_Do_I_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Zhao_Unified_Face_Analysis_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Mora_Geometric_Generative_Gaze_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Wu_A_Hierarchical_Probabilistic_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Sagonas_RAPS_Robust_and_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Martins_Non-Parametric_Bayesian_Constrained_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Liu_Facial_Expression_Recognition_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Antonakos_Automatic_Construction_of_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Sugano_Learning-by-Synthesis_for_Appearance-based_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Xing_Towards_Multi-view_and_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Geng_Head_Pose_Estimation_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Li_Efficient_Boosted_Exemplar-based_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Tzimiropoulos_Gauss-Newton_Deformable_Part_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Asthana_Incremental_Face_Alignment_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Kazemi_One_Millisecond_Face_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Hu_Discriminative_Deep_Metric_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Kan_Stacked_Progressive_Auto-Encoders_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Sun_Deep_Learning_Face_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Chu_3D-aided_Face_Recognition_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Hayat_Learning_Non-Linear_Reconstruction_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Yao_Gesture_Recognition_Portfolios_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Ong_Sign_Spotting_using_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Khan_Automatic_Feature_Learning_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Zheng_Packing_and_Padding_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Yang_Adaptive_Object_Retrieval_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Zheng_Bayes_Merging_of_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Lin_Fast_Supervised_Hashing_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Chen_Detect_What_You_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Vezhnevets_Associative_Embeddings_for_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Hariharan_Detecting_Objects_using_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Li_Persistence-based_Structural_Recognition_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Chen_Inferring_Unseen_Views_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Berg_Birdsnap_Large-scale_Fine-grained_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Fouhey_Predicting_Object_Dynamics_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Chen_Enriching_Visual_Knowledge_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Pickup_Seeing_the_Arrow_2014_CVPR_paper.pdf 48%|████▊     | 257/540 [18:23<18:11,  3.86s/it] 48%|████▊     | 258/540 [18:24<13:58,  2.97s/it] 48%|████▊     | 259/540 [18:25<10:57,  2.34s/it] 48%|████▊     | 260/540 [18:26<09:12,  1.97s/it] 48%|████▊     | 261/540 [18:30<12:47,  2.75s/it] 49%|████▊     | 262/540 [18:31<09:54,  2.14s/it] 49%|████▊     | 263/540 [18:36<13:52,  3.01s/it] 49%|████▉     | 264/540 [18:40<14:37,  3.18s/it] 49%|████▉     | 265/540 [18:45<17:33,  3.83s/it] 49%|████▉     | 266/540 [18:47<15:06,  3.31s/it] 49%|████▉     | 267/540 [18:48<12:25,  2.73s/it] 50%|████▉     | 268/540 [19:03<27:52,  6.15s/it] 50%|████▉     | 269/540 [19:04<20:57,  4.64s/it] 50%|█████     | 270/540 [19:05<15:43,  3.49s/it] 50%|█████     | 271/540 [19:08<16:04,  3.58s/it] 50%|█████     | 272/540 [19:12<15:58,  3.57s/it] 51%|█████     | 273/540 [19:18<19:47,  4.45s/it] 51%|█████     | 274/540 [19:19<15:13,  3.43s/it] 51%|█████     | 275/540 [19:22<13:34,  3.07s/it] 51%|█████     | 276/540 [19:31<21:36,  4.91s/it] 51%|█████▏    | 277/540 [19:32<16:59,  3.88s/it] 51%|█████▏    | 278/540 [19:38<19:22,  4.44s/it] 52%|█████▏    | 279/540 [19:39<14:52,  3.42s/it] 52%|█████▏    | 280/540 [19:43<14:50,  3.43s/it] 52%|█████▏    | 281/540 [19:43<11:29,  2.66s/it] 52%|█████▏    | 282/540 [19:59<27:58,  6.50s/it] 52%|█████▏    | 283/540 [20:12<36:34,  8.54s/it] 53%|█████▎    | 284/540 [20:16<30:56,  7.25s/it] 53%|█████▎    | 285/540 [20:17<22:33,  5.31s/it] 53%|█████▎    | 286/540 [20:21<21:00,  4.96s/it] 53%|█████▎    | 287/540 [20:27<21:31,  5.11s/it] 53%|█████▎    | 288/540 [20:30<19:02,  4.53s/it] 54%|█████▎    | 289/540 [20:33<16:41,  3.99s/it] 54%|█████▎    | 290/540 [20:39<19:08,  4.59s/it] 54%|█████▍    | 291/540 [20:40<15:12,  3.66s/it] 54%|█████▍    | 292/540 [20:41<11:29,  2.78s/it] 54%|█████▍    | 293/540 [20:42<09:21,  2.27s/it] 54%|█████▍    | 294/540 [20:54<20:43,  5.06s/it] 55%|█████▍    | 295/540 [20:59<21:13,  5.20s/it] 55%|█████▍    | 296/540 [21:01<17:15,  4.25s/it] 55%|█████▌    | 297/540 [21:03<13:47,  3.40s/it] 55%|█████▌    | 298/540 [21:05<12:36,  3.13s/it] 55%|█████▌    | 299/540 [21:07<10:44,  2.67s/it] 56%|█████▌    | 300/540 [21:08<09:26,  2.36s/it] 56%|█████▌    | 301/540 [21:13<12:20,  3.10s/it] 56%|█████▌    | 302/540 [21:14<09:49,  2.48s/it] 56%|█████▌    | 303/540 [21:19<12:36,  3.19s/it] 56%|█████▋    | 304/540 [21:25<16:05,  4.09s/it] 56%|█████▋    | 305/540 [21:26<12:07,  3.10s/it] 57%|█████▋    | 306/540 [21:33<16:15,  4.17s/it] 57%|█████▋    | 307/540 [21:36<15:33,  4.01s/it] 57%|█████▋    | 308/540 [21:50<26:40,  6.90s/it] 57%|█████▋    | 309/540 [22:01<31:15,  8.12s/it] 57%|█████▋    | 310/540 [22:07<28:18,  7.38s/it] 58%|█████▊    | 311/540 [22:14<28:43,  7.53s/it] 58%|█████▊    | 312/540 [22:15<21:02,  5.54s/it] 58%|█████▊    | 313/540 [22:17<16:35,  4.39s/it] 58%|█████▊    | 314/540 [22:23<18:05,  4.80s/it] 58%|█████▊    | 315/540 [22:24<13:43,  3.66s/it] 59%|█████▊    | 316/540 [22:26<11:47,  3.16s/it] 59%|█████▊    | 317/540 [22:27<09:11,  2.47s/it] 59%|█████▉    | 318/540 [22:27<06:59,  1.89s/it] 59%|█████▉    | 319/540 [22:29<07:03,  1.92s/it] 59%|█████▉    | 320/540 [22:30<05:51,  1.60s/it]
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Zhao_Hierarchical_Feature_Hashing_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Papandreou_Modeling_Image_Patches_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Zhang_Simplex-Based_3D_Spatio-Temporal_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Buch_In_Search_of_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Ding_Collective_Matrix_Factorization_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Cho_Finding_Matches_in_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Tao_Locality_in_Generic_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Ben-Shalom_Congruency-Based_Reranking_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Davis_Asymmetric_Sparse_Kernel_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Irie_Locally_Linear_Hashing_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Karasev_Active_Frame_Location_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Heo_Distance_Encoded_Product_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Liu_Collaborative_Hashing_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Erhan_Scalable_Object_Detection_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Oxholm_Multiview_Shape_and_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Fu_Reflectance_and_Fluorescent_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Chandraker_What_Camera_Motion_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Ikehata_Photometric_Stereo_using_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Guo_Robust_Separation_of_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Xie_Surface-from-Gradients_An_Approach_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Alahi_Socially-aware_Large-scale_Crowd_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Yi_L0_Regularized_Stationary_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Shao_Scene-Independent_Group_Profiling_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Cheng_Temporal_Sequence_Modeling_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Bhattacharya_Recognition_of_Complex_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Lai_Video_Event_Detection_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Tsiotsios_Backscatter_Compensated_Photometric_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Park_Calibrating_a_Non-isotropic_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Shiradkar_A_New_Perspective_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Haque_High_Quality_Photometric_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Badri_Robust_Surface_Reconstruction_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Dong_Scattering_Parameters_and_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/El-Melegy_Better_Shading_for_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Hu_Stable_and_Informative_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Liu_Deformable_Object_Matching_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Kalantidis_Locally_Optimized_Product_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Ouyang_Multi-source_Deep_Learning_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Pons-Moll_Posebits_for_Monocular_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Ye_Real-time_Simultaneous_Pose_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Cherian_Mixing_Body-Part_Sequences_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Wang_Robust_Estimation_of_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Sande_Fisher_and_VLAD_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Aytar_Immediate_Scalable_Object_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Ghiasi_Occlusion_Coherence_Localizing_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Costea_Word_Channel_Based_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Ghiasi_Parsing_Occluded_People_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Cinbis_Multi-fold_MIL_Training_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Rantalankila_Generating_Object_Segmentation_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Nguyen_A_Novel_Chamfer_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Ali_Confidence-Rated_Multiple_Instance_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Mensink_COSTA_Co-Occurrence_Statistics_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Hejrati_Analysis_by_Synthesis_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Zhu_Submodular_Object_Recognition_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Duan_Multimodal_Learning_in_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Murray_Generalized_Max_Pooling_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Baktashmotlagh_Domain_Adaptation_on_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Goring_Nonparametric_Part_Transfer_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Yan_The_Fastest_Deformable_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Dai_Unsupervised_Learning_of_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Zhao_Quasi_Real-Time_Summarization_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Mansur_Gait_Recognition_under_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Assari_Video_Classification_using_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Poleg_Temporal_Segmentation_of_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Oneata_Efficient_Action_Localization_2014_CVPR_paper.pdf 59%|█████▉    | 321/540 [22:30<04:31,  1.24s/it] 60%|█████▉    | 322/540 [22:48<22:49,  6.28s/it] 60%|█████▉    | 323/540 [22:49<16:55,  4.68s/it] 60%|██████    | 324/540 [22:53<15:17,  4.25s/it] 60%|██████    | 325/540 [22:53<11:25,  3.19s/it] 60%|██████    | 326/540 [22:59<14:08,  3.97s/it] 61%|██████    | 327/540 [23:01<11:44,  3.31s/it] 61%|██████    | 328/540 [23:02<09:44,  2.76s/it] 61%|██████    | 329/540 [23:03<07:55,  2.25s/it] 61%|██████    | 330/540 [23:05<06:54,  1.97s/it] 61%|██████▏   | 331/540 [23:06<05:36,  1.61s/it] 61%|██████▏   | 332/540 [23:07<05:32,  1.60s/it] 62%|██████▏   | 333/540 [23:08<04:46,  1.38s/it] 62%|██████▏   | 334/540 [23:09<04:45,  1.38s/it] 62%|██████▏   | 335/540 [23:20<13:52,  4.06s/it] 62%|██████▏   | 336/540 [23:21<10:34,  3.11s/it] 62%|██████▏   | 337/540 [23:27<13:56,  4.12s/it] 63%|██████▎   | 338/540 [23:46<29:13,  8.68s/it] 63%|██████▎   | 339/540 [23:47<21:07,  6.31s/it] 63%|██████▎   | 340/540 [23:54<21:20,  6.40s/it] 63%|██████▎   | 341/540 [23:56<16:52,  5.09s/it] 63%|██████▎   | 342/540 [23:57<12:38,  3.83s/it] 64%|██████▎   | 343/540 [23:57<09:22,  2.85s/it] 64%|██████▎   | 344/540 [24:08<17:30,  5.36s/it] 64%|██████▍   | 345/540 [24:10<13:22,  4.11s/it] 64%|██████▍   | 346/540 [24:11<10:49,  3.35s/it] 64%|██████▍   | 347/540 [24:13<09:34,  2.98s/it] 64%|██████▍   | 348/540 [24:14<07:30,  2.35s/it] 65%|██████▍   | 349/540 [24:21<11:13,  3.53s/it] 65%|██████▍   | 350/540 [24:22<09:32,  3.01s/it] 65%|██████▌   | 351/540 [24:53<35:23, 11.24s/it] 65%|██████▌   | 352/540 [24:55<26:54,  8.59s/it] 65%|██████▌   | 353/540 [24:58<21:36,  6.93s/it] 66%|██████▌   | 354/540 [25:09<24:43,  7.98s/it] 66%|██████▌   | 355/540 [25:10<18:35,  6.03s/it] 66%|██████▌   | 356/540 [25:13<15:40,  5.11s/it] 66%|██████▌   | 357/540 [25:15<12:36,  4.13s/it] 66%|██████▋   | 358/540 [25:21<14:38,  4.82s/it] 66%|██████▋   | 359/540 [25:34<21:49,  7.24s/it] 67%|██████▋   | 360/540 [25:38<18:59,  6.33s/it] 67%|██████▋   | 361/540 [25:40<14:11,  4.76s/it] 67%|██████▋   | 362/540 [25:40<10:42,  3.61s/it] 67%|██████▋   | 363/540 [25:42<08:28,  2.87s/it] 67%|██████▋   | 364/540 [25:51<13:48,  4.71s/it] 68%|██████▊   | 365/540 [26:02<19:12,  6.59s/it] 68%|██████▊   | 366/540 [26:04<15:14,  5.26s/it] 68%|██████▊   | 367/540 [26:14<19:28,  6.75s/it] 68%|██████▊   | 368/540 [26:17<16:06,  5.62s/it] 68%|██████▊   | 369/540 [26:31<23:34,  8.27s/it] 69%|██████▊   | 370/540 [26:38<22:00,  7.77s/it] 69%|██████▊   | 371/540 [26:45<21:05,  7.49s/it] 69%|██████▉   | 372/540 [26:47<16:45,  5.98s/it] 69%|██████▉   | 373/540 [27:05<26:46,  9.62s/it] 69%|██████▉   | 374/540 [27:09<21:38,  7.82s/it] 69%|██████▉   | 375/540 [32:28<4:38:21, 101.22s/it] 70%|██████▉   | 376/540 [32:29<3:14:06, 71.02s/it]  70%|██████▉   | 377/540 [32:55<2:36:03, 57.44s/it] 70%|███████   | 378/540 [33:24<2:12:46, 49.18s/it] 70%|███████   | 379/540 [33:35<1:41:04, 37.67s/it] 70%|███████   | 380/540 [33:37<1:11:39, 26.87s/it] 71%|███████   | 381/540 [33:40<51:57, 19.61s/it]   71%|███████   | 382/540 [33:45<40:31, 15.39s/it] 71%|███████   | 383/540 [33:47<29:58, 11.45s/it] 71%|███████   | 384/540 [33:49<22:16,  8.57s/it] 71%|███████▏  | 385/540 [33:53<18:39,  7.22s/it]
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Cancela_Unsupervised_Trajectory_Modelling_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Wang_A_Hierarchical_Context_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Sun_DISCOVER_Discovering_Important_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Wu_Towards_Good_Practices_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Dehghan_Improving_Semantic_Concept_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Kantorov_Efficient_Feature_Extraction_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Gupta_3D_Pose_from_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Wu_Human_Action_Recognition_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Lin_Depth_and_Skeleton_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Sun_DL-SFA_Deeply-Learned_Slow_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Narayan_A_Cause_and_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Vo_From_Stochastic_Grammar_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Wang_Cross-view_Action_Modeling_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Lin_Visual_Semantic_Search_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Wu_Zero-shot_Event_Detection_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Chen_Dual_Linear_Regression_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Feichtenhofer_Bags_of_Spacetime_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Sun_Feature-Independent_Action_Spotting_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Sironi_Multiscale_Centerline_Detection_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Kim_Multivariate_General_Linear_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Chen_Preconditioning_for_Accelerated_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Shi_Joint_Coupled-Feature_Representation_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Wassermann_Deformable_Registration_of_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Fiaschi_Tracking_Indistinguishable_Translucent_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Koutaki_Scale-space_Processing_Using_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Li_Single_Image_Layer_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Chen_Image_Fusion_with_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Kim_Segmentation-Free_Dynamic_Scene_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Schmidt_Shrinkage_Fields_for_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Owens_Camouflaging_an_Object_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Lu_Learning_Optimal_Seeds_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Vig_Large-Scale_Optimization_of_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Li_Saliency_Detection_on_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Zhu_Saliency_Optimization_from_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Shi_A_Reverse_Hierarchy_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Zhang_100_Times_Faster_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Hua_Edge-aware_Gradient_Domain_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Singh_Super-Resolving_Noisy_Images_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Chen_Sparse_Dictionary_Learning_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Gu_Weighted_Nuclear_Norm_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Zhang_Using_Projection_Kurtosis_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Tang_Blind_Image_Quality_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Fang_Separable_Kernel_for_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Hu_Joint_Depth_Estimation_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Pan_Deblurring_Text_Images_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Perrone_Total_Variation_Blind_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Zhu_Single_Image_Super-resolution_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Zhang_Multi-Shot_Imaging_Joint_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Yue_CID_Combined_Image_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Tan_Multipoint_Filtering_with_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Peng_Decomposable_Nonlocal_Tensor_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Huang_Robust_3D_Features_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Shi_Discriminative_Blur_Detection_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Pritts_Detection_Rectification_and_2014_CVPR_paper.pdf
+EOF marker not found
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Cicconet_Mirror_Symmetry_Histograms_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Yan_A_Learning-to-Rank_Approach_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Tang_Investigating_Haze-relevant_Features_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Chen_Quality_Assessment_for_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Xiao_Shadow_Removal_from_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Xu_Manifold_Based_Dynamic_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Dai_The_Synthesizability_of_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Glowacki_Reconstructing_Evolving_Tree_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Xu_Total-Variation_Minimization_on_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Wang_Tracking_on_the_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Cheng_Curvilinear_Structure_Tracking_2014_CVPR_paper.pdf 71%|███████▏  | 386/540 [33:59<17:27,  6.80s/it] 72%|███████▏  | 387/540 [34:00<12:59,  5.09s/it] 72%|███████▏  | 388/540 [34:02<10:18,  4.07s/it] 72%|███████▏  | 389/540 [34:20<20:52,  8.29s/it] 72%|███████▏  | 390/540 [34:21<14:54,  5.97s/it] 72%|███████▏  | 391/540 [34:21<10:49,  4.36s/it] 73%|███████▎  | 392/540 [34:22<08:16,  3.35s/it] 73%|███████▎  | 393/540 [34:23<06:23,  2.61s/it] 73%|███████▎  | 394/540 [34:25<06:03,  2.49s/it] 73%|███████▎  | 395/540 [34:36<11:41,  4.84s/it] 73%|███████▎  | 396/540 [34:37<09:15,  3.86s/it] 74%|███████▎  | 397/540 [34:47<13:34,  5.70s/it] 74%|███████▎  | 398/540 [34:57<16:27,  6.95s/it] 74%|███████▍  | 399/540 [34:58<12:16,  5.23s/it] 74%|███████▍  | 400/540 [35:01<10:29,  4.49s/it] 74%|███████▍  | 401/540 [35:14<16:09,  6.98s/it] 74%|███████▍  | 402/540 [35:15<11:56,  5.19s/it] 75%|███████▍  | 403/540 [35:16<08:53,  3.90s/it] 75%|███████▍  | 404/540 [35:19<08:19,  3.67s/it] 75%|███████▌  | 405/540 [35:25<10:01,  4.45s/it] 75%|███████▌  | 406/540 [35:26<07:40,  3.44s/it] 75%|███████▌  | 407/540 [35:30<07:51,  3.55s/it] 76%|███████▌  | 408/540 [35:31<06:06,  2.78s/it] 76%|███████▌  | 409/540 [35:39<09:30,  4.36s/it] 76%|███████▌  | 410/540 [35:42<08:20,  3.85s/it] 76%|███████▌  | 411/540 [35:49<10:17,  4.79s/it] 76%|███████▋  | 412/540 [35:52<09:07,  4.28s/it] 76%|███████▋  | 413/540 [35:53<07:08,  3.37s/it] 77%|███████▋  | 414/540 [35:54<05:32,  2.64s/it] 77%|███████▋  | 415/540 [35:57<06:00,  2.88s/it] 77%|███████▋  | 416/540 [36:26<22:04, 10.68s/it] 77%|███████▋  | 417/540 [36:33<19:11,  9.36s/it] 77%|███████▋  | 418/540 [36:34<14:11,  6.98s/it] 78%|███████▊  | 419/540 [36:35<10:41,  5.30s/it] 78%|███████▊  | 420/540 [36:37<08:27,  4.23s/it] 78%|███████▊  | 421/540 [36:44<09:45,  4.92s/it] 78%|███████▊  | 422/540 [36:52<11:33,  5.87s/it] 78%|███████▊  | 423/540 [37:08<17:21,  8.90s/it] 79%|███████▊  | 424/540 [37:13<15:08,  7.84s/it] 79%|███████▊  | 425/540 [37:16<12:03,  6.29s/it] 79%|███████▉  | 426/540 [37:28<15:23,  8.10s/it] 79%|███████▉  | 427/540 [37:46<20:57, 11.13s/it] 79%|███████▉  | 428/540 [37:48<15:42,  8.41s/it] 79%|███████▉  | 429/540 [38:02<18:16,  9.88s/it] 80%|███████▉  | 430/540 [38:17<21:20, 11.64s/it] 80%|███████▉  | 431/540 [38:30<21:39, 11.92s/it] 80%|████████  | 432/540 [38:34<17:06,  9.50s/it] 80%|████████  | 433/540 [38:45<17:58, 10.08s/it] 80%|████████  | 434/540 [39:10<25:42, 14.55s/it] 81%|████████  | 435/540 [39:12<18:53, 10.80s/it] 81%|████████  | 436/540 [39:14<14:03,  8.11s/it] 81%|████████  | 437/540 [39:18<11:42,  6.82s/it] 81%|████████  | 438/540 [39:20<08:56,  5.26s/it] 81%|████████▏ | 439/540 [39:21<07:08,  4.24s/it] 81%|████████▏ | 440/540 [39:25<06:54,  4.14s/it] 82%|████████▏ | 441/540 [39:32<08:09,  4.94s/it] 82%|████████▏ | 442/540 [39:33<06:14,  3.82s/it] 82%|████████▏ | 443/540 [39:36<05:40,  3.51s/it] 82%|████████▏ | 444/540 [39:38<04:51,  3.04s/it] 82%|████████▏ | 445/540 [40:06<16:48, 10.62s/it] 83%|████████▎ | 446/540 [40:11<13:50,  8.84s/it] 83%|████████▎ | 447/540 [40:15<11:22,  7.34s/it] 83%|████████▎ | 448/540 [40:16<08:29,  5.54s/it] 83%|████████▎ | 449/540 [40:25<09:48,  6.47s/it]
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Ledig_Patch-based_Evaluation_of_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Hermann_Evaluation_of_Scan-Line_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Zhou_Classification_of_Histology_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Zhu_Matrix-Similarity_Based_Loss_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Zhou_Discriminative_Sparse_Inverse_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Qureshi_A_Bayesian_Framework_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Sanroma_Learning-Based_Atlas_Selection_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Ngo_Fully_Automated_Non-rigid_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Sundaramoorthi_FAST_LABEL_Easy_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Yanulevskaya_Learning_to_Group_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Wang_Unsupervised_Multi-Class_Joint_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Ahmed_Semantic_Object_Selection_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Donoser_Discrete-Continuous_Gradient_Orientation_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Fu_Object-based_Multiple_Foreground_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Tonge_Parsing_Worlds_Skylines_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Yang_Clothing_Co-Parsing_by_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Xu_Tell_Me_What_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Chen_Beat_the_MTurkers_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Cohen_Efficient_Structured_Parsing_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Zheng_Dense_Semantic_Image_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Heide_Diffuse_Mirrors_3D_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Lin_Fourier_Analysis_on_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Ma_Transparent_Object_Reconstruction_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/OToole_3D_Shape_and_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Chang_Shape-Preserving_Half-Projective_Warps_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Zhang_Parallax-tolerant_Image_Stitching_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Divvala_Learning_Everything_about_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Kobayashi_Dirichlet-based_Histogram_Feature_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Cheng_BING_Binarized_Normed_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Yang_Context_Driven_Scene_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Walker_Patch_to_the_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Jegou_Triangulation_Embedding_and_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Yuan_Low-Cost_Compressive_Sensing_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Xiao_Aliasing_Detection_and_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Kemelmacher-Shlizerman_Illumination-Aware_Age_Progression_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Hwang_Color_Transfer_Using_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Ji_Image_Pre-compensation_Balancing_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Zhou_Time-Mapping_Using_Space-Time_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Park_Gyro-Based_Multi-Image_Deconvolution_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Li_Similarity-Aware_Patchwork_Assembly_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Hu_Deblurring_Low-light_Images_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Lu_Depth_Enhancement_via_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Nguyen_Raw-to-Raw_Mapping_between_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Yang_DAISY_Filter_Flow_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Crivellaro_Robust_3D_Tracking_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Oikonomidis_Evolutionary_Quasi-random_Search_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Kyriazis_Scalable_3D_Tracking_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Alabort-i-Medina_Bayesian_Active_Appearance_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Huang_Human_Shape_and_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Poling_Better_Feature_Tracking_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Lu_Online_Object_Tracking_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Varas_Region-based_Particle_Filter_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Wang_Visual_Tracking_via_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Lee_Visual_Tracking_Using_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Kwon_Interval_Tracker_Tracking_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Jiang_Unifying_Spatial_and_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Zhu_Pedestrian_Detection_in_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Shi_Multi-target_Tracking_with_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Hornacek_SphereFlow_6_DoF_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Bao_Fast_Edge-Preserving_PatchMatch_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Leal-Taixe_Learning_an_Image-based_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Liu_Semi-Supervised_Coupled_Dictionary_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Kong_What_are_You_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Zhang_Predicting_Failures_of_2014_CVPR_paper.pdf 83%|████████▎ | 450/540 [40:28<08:06,  5.40s/it] 84%|████████▎ | 451/540 [40:28<05:56,  4.00s/it] 84%|████████▎ | 452/540 [40:33<06:11,  4.22s/it] 84%|████████▍ | 453/540 [40:51<11:53,  8.20s/it] 84%|████████▍ | 454/540 [40:52<08:44,  6.10s/it] 84%|████████▍ | 455/540 [40:57<08:05,  5.71s/it] 84%|████████▍ | 456/540 [41:00<06:46,  4.84s/it] 85%|████████▍ | 457/540 [41:01<05:12,  3.77s/it] 85%|████████▍ | 458/540 [41:04<04:58,  3.64s/it] 85%|████████▌ | 459/540 [41:05<03:58,  2.95s/it] 85%|████████▌ | 460/540 [41:08<03:52,  2.90s/it] 85%|████████▌ | 461/540 [41:09<02:56,  2.24s/it] 86%|████████▌ | 462/540 [41:10<02:37,  2.02s/it] 86%|████████▌ | 463/540 [41:11<01:59,  1.56s/it] 86%|████████▌ | 464/540 [41:46<14:41, 11.60s/it] 86%|████████▌ | 465/540 [41:56<13:56, 11.15s/it] 86%|████████▋ | 466/540 [42:04<12:38, 10.25s/it] 86%|████████▋ | 467/540 [42:08<10:05,  8.30s/it] 87%|████████▋ | 468/540 [42:15<09:21,  7.79s/it] 87%|████████▋ | 469/540 [42:18<07:42,  6.52s/it] 87%|████████▋ | 470/540 [42:22<06:31,  5.59s/it] 87%|████████▋ | 471/540 [42:23<05:04,  4.42s/it] 87%|████████▋ | 472/540 [42:24<03:39,  3.23s/it] 88%|████████▊ | 473/540 [42:26<03:11,  2.85s/it] 88%|████████▊ | 474/540 [42:26<02:20,  2.12s/it] 88%|████████▊ | 475/540 [42:28<02:16,  2.10s/it] 88%|████████▊ | 476/540 [42:46<07:16,  6.82s/it] 88%|████████▊ | 477/540 [42:51<06:43,  6.41s/it] 89%|████████▊ | 478/540 [42:53<04:59,  4.83s/it] 89%|████████▊ | 479/540 [42:57<04:53,  4.82s/it] 89%|████████▉ | 480/540 [42:58<03:33,  3.56s/it] 89%|████████▉ | 481/540 [43:00<02:56,  3.00s/it] 89%|████████▉ | 482/540 [43:01<02:16,  2.35s/it] 89%|████████▉ | 483/540 [43:01<01:43,  1.81s/it] 90%|████████▉ | 484/540 [43:07<02:52,  3.08s/it] 90%|████████▉ | 485/540 [43:09<02:26,  2.67s/it] 90%|█████████ | 486/540 [43:15<03:14,  3.60s/it] 90%|█████████ | 487/540 [43:17<02:44,  3.11s/it] 90%|█████████ | 488/540 [43:18<02:17,  2.64s/it] 91%|█████████ | 489/540 [43:19<01:49,  2.15s/it] 91%|█████████ | 490/540 [43:24<02:23,  2.87s/it] 91%|█████████ | 491/540 [43:39<05:23,  6.61s/it] 91%|█████████ | 492/540 [43:55<07:30,  9.39s/it] 91%|█████████▏| 493/540 [43:56<05:23,  6.88s/it] 91%|█████████▏| 494/540 [44:02<05:05,  6.63s/it] 92%|█████████▏| 495/540 [44:03<03:40,  4.90s/it] 92%|█████████▏| 496/540 [44:05<02:57,  4.04s/it] 92%|█████████▏| 497/540 [44:12<03:32,  4.94s/it] 92%|█████████▏| 498/540 [44:20<04:02,  5.77s/it] 92%|█████████▏| 499/540 [44:34<05:41,  8.33s/it] 93%|█████████▎| 500/540 [44:40<05:08,  7.71s/it] 93%|█████████▎| 501/540 [44:54<06:17,  9.68s/it] 93%|█████████▎| 502/540 [44:56<04:39,  7.36s/it] 93%|█████████▎| 503/540 [44:59<03:35,  5.83s/it] 93%|█████████▎| 504/540 [45:01<02:52,  4.78s/it] 94%|█████████▎| 505/540 [45:34<07:41, 13.20s/it] 94%|█████████▎| 506/540 [45:43<06:49, 12.05s/it] 94%|█████████▍| 507/540 [45:45<04:59,  9.08s/it] 94%|█████████▍| 508/540 [46:24<09:31, 17.85s/it] 94%|█████████▍| 509/540 [46:30<07:25, 14.37s/it] 94%|█████████▍| 510/540 [46:31<05:13, 10.44s/it] 95%|█████████▍| 511/540 [46:33<03:43,  7.72s/it] 95%|█████████▍| 512/540 [46:34<02:44,  5.86s/it] 95%|█████████▌| 513/540 [46:44<03:15,  7.22s/it] 95%|█████████▌| 514/540 [46:46<02:23,  5.52s/it]
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Ushiku_Three_Guidelines_of_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Gkioxari_Using_k-Poselets_for_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Eigenstetter_Randomized_Max-Margin_Compositions_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Chen_Large-Scale_Visual_Font_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Cimpoi_Describing_Textures_in_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Sandeep_Relative_Parts_Distinctive_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Vedaldi_Understanding_Objects_in_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Christie_Predicting_User_Annoyance_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Deng_Linear_Ranking_Analysis_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Paulin_Transformation_Pursuit_for_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Ristin_Incremental_Learning_of_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Bilen_Object_Classification_with_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Krupka_Discriminative_Ferns_Ensemble_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Zia_Are_Cars_Just_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Andriluka_2D_Human_Pose_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Pedersoli_Using_a_Deformation_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Branson_Active_Annotation_Translation_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Khosla_Looking_Beyond_the_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Lu_Two-Class_Weather_Classification_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Lin_Learning_Important_Spatial_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Xie_Orientational_Pyramid_Matching_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Geng_Multilabel_Ranking_with_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Tighe_Scene_Parsing_with_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Deng_A_Riemannian_Framework_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Aubry_Seeing_3D_Chairs_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Straub_A_Mixture_of_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Liu_Local_Regularity-driven_City-scale_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Tang_Latent_Regression_Forest_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Bogo_FAUST_Dataset_and_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Jayasumana_Optimizing_Over_Radial_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Hauberg_Grassmann_Averages_for_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Feng_Robust_Subspace_Segmentation_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Liu_Unsupervised_One-Class_Learning_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Hu_Smooth_Representation_Clustering_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Zhang_Novel_Methods_for_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Balzer_Second-Order_Shape_Optimization_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Bao_l0_Norm_Based_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Liu_Adaptive_Partial_Differential_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Shu_Robust_Orthonormal_Subspace_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Kim_Reconstructing_Storyline_Graphs_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Meng_Active_Flattening_of_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Rematas_Image-based_Synthesis_and_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Pujades_Bayesian_View_Synthesis_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Chen_Fast_MRF_Optimization_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Choe_Exploiting_Shading_Cues_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Bustos_Fast_Rotation_Search_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Zhu_Local_Readjustment_for_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Kolev_Turning_Mobile_Phones_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Magri_T-Linkage_A_Continuous_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Hui_Motion-Depth_RGB-D_Depth_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Kumar_Generalized_Pupil-Centric_Imaging_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Bansal_Geometric_Urban_Geo-Localization_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Yu_3D_Reconstruction_from_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Pauwels_Real-time_Model-based_Articulated_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Shan_Occluding_Contours_for_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Cabezas_Aerial_Reconstructions_via_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Wang_3D_Modeling_from_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Dragon_Ground_Plane_Estimation_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Kang_Orientation_Robust_Text_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Yao_Strokelets_A_Learned_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Lee_Region-based_Discriminative_Feature_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Boussaid_Fast_and_Exact_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Eriksson_Pseudoconvex_Proximal_Splitting_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Kee_A_Convex_Relaxation_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Kee_Sequential_Convex_Relaxation_2014_CVPR_paper.pdf 95%|█████████▌| 515/540 [46:46<01:39,  3.99s/it] 96%|█████████▌| 516/540 [46:56<02:16,  5.69s/it] 96%|█████████▌| 517/540 [46:58<01:41,  4.42s/it] 96%|█████████▌| 518/540 [46:58<01:12,  3.28s/it] 96%|█████████▌| 519/540 [46:59<00:53,  2.55s/it] 96%|█████████▋| 520/540 [46:59<00:38,  1.91s/it] 96%|█████████▋| 521/540 [47:01<00:32,  1.74s/it] 97%|█████████▋| 522/540 [47:02<00:26,  1.50s/it] 97%|█████████▋| 523/540 [47:03<00:25,  1.50s/it] 97%|█████████▋| 524/540 [47:06<00:28,  1.81s/it] 97%|█████████▋| 525/540 [47:06<00:21,  1.41s/it] 97%|█████████▋| 526/540 [47:20<01:13,  5.27s/it] 98%|█████████▊| 527/540 [47:23<00:58,  4.49s/it] 98%|█████████▊| 528/540 [47:24<00:41,  3.45s/it] 98%|█████████▊| 529/540 [47:28<00:39,  3.56s/it] 98%|█████████▊| 530/540 [47:45<01:16,  7.67s/it] 98%|█████████▊| 531/540 [47:58<01:24,  9.35s/it] 99%|█████████▊| 532/540 [48:00<00:57,  7.13s/it] 99%|█████████▊| 533/540 [48:17<01:08,  9.84s/it] 99%|█████████▉| 534/540 [48:17<00:42,  7.09s/it] 99%|█████████▉| 535/540 [48:18<00:25,  5.13s/it] 99%|█████████▉| 536/540 [48:20<00:16,  4.18s/it] 99%|█████████▉| 537/540 [48:20<00:09,  3.10s/it]100%|█████████▉| 538/540 [48:22<00:05,  2.56s/it]100%|█████████▉| 539/540 [48:23<00:02,  2.07s/it]100%|██████████| 540/540 [48:31<00:00,  3.89s/it]
+
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Ono_Decorrelated_Vectorial_Total_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Nieuwenhuis_Efficient_Squared_Curvature_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Wang_Multi-feature_Spectral_Clustering_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Bahrampour_Quality-based_Multimodal_Classification_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Yuan_Newton_Greedy_Pursuit_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Lu_Generalized_Nonconvex_Nonsmooth_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Yang_Latent_Dictionary_Learning_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Ke_Is_Rotation_a_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Liu_Dual-Space_Decomposition_of_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Raftopoulos_Noising_versus_Smoothing_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Zeng_Surface_Registration_by_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Rodola_Dense_Non-Rigid_Shape_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Tabia_Covariance_Descriptors_for_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Yoshiyasu_Symmetry-Aware_Nonrigid_Matching_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Fan_An_Automated_Estimator_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Liu_SteadyFlow_Spatially_Smooth_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Garrido_Automatic_Face_Reenactment_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Kim_Joint_Summarization_of_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Niu_Semi-supervised_Relational_Topic_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Ye_Beyond_Human_Opinion_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Ye_Active_Sampling_for_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Guo_A_Study_on_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Li_Remote_Heart_Rate_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Redi_6_Seconds_of_2014_CVPR_paper.pdf
+/Users/lihaoyu/Documents/USC/INF551/project/Web_Search_Application/data/2014/Zamir_GPS-Tag_Refinement_using_2014_CVPR_paper.pdf

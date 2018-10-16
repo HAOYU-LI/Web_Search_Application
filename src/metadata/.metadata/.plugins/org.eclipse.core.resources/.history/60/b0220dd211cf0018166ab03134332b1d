@@ -1,0 +1,35 @@
+/**
+ * 
+ */
+package pdfbox;
+
+import java.io.BufferedWriter;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileWriter;
+
+import org.pdfbox.pdfparser.PDFParser;
+import org.pdfbox.util.PDFTextStripper;
+
+
+public class PdfboxTest {
+	public static void main(String[] args) throws Exception{
+		//获取pdf文件
+		FileInputStream fis = new FileInputStream("/Users/lihaoyu/Documents/USC/INF551/project/"
+												+ "Web_Search_Application/data/"
+												+ "Zou_Separation_of_Line_2014_CVPR_paper.pdf");
+		//目标文件
+		BufferedWriter writer = new BufferedWriter(new FileWriter("./pdf_change.txt"));
+		PDFParser p = new PDFParser(fis);
+		p.parse();
+		
+		PDFTextStripper ts = new PDFTextStripper();
+		String s = ts.getText(p.getPDDocument());
+		
+		writer.write(s);
+		System.out.println(s);
+		fis.close();
+		writer.close();
+	}
+
+}

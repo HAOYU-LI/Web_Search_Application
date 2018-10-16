@@ -1,0 +1,83 @@
+package pdfbox;
+
+
+import org.pdfbox.exceptions.InvalidPasswordException;  
+  
+import org.pdfbox.pdfparser.PDFParser;  
+  
+import org.pdfbox.pdmodel.PDDocument;  
+import org.pdfbox.pdmodel.PDDocumentCatalog;  
+import org.pdfbox.pdmodel.PDDocumentInformation;  
+import org.pdfbox.pdmodel.common.PDMetadata;  
+  
+import java.io.FileInputStream;  
+//import java.io.IOException;  
+  
+//import java.text.SimpleDateFormat;  
+  
+//import java.util.Calendar;  
+
+
+public class DocumentMetaData {
+
+	public static void main(String[] args) throws Exception {
+		// TODO Auto-generated method stub
+		if ( args.length == 1) {
+			usage();
+			return;
+		}
+		
+		PDDocument document = null;
+		FileInputStream file = null;
+		
+		try {
+			file = new FileInputStream( args[0] );
+			PDFParser parser = new PDFParser(file);
+			parser.parse();
+			
+			document = parser.getPDDocument();
+			
+			if (document.isEncrypted()) {
+				try {
+					document.decrypt("");
+				} catch (InvalidPasswordException e) {
+					System.err.println( "Error: Document is encrypted with a password.");
+					System.exit(1);
+				}
+			}
+			
+			DocumentMetaData meta = new DocumentMetaData();
+			meta.printMetaData(document);
+			
+		} finally {
+			if (file != null) {
+				file.close();
+			}
+			
+			if (document != null) {
+				document.close();
+			}
+		}
+		
+	}
+	
+	private static void usage() {
+		System.err.println("Usage : java src.pdfbox.DocumentMetaData <input-pdf>");
+	}
+	
+	public void printMetaData(PDDocument document) throws Exception {
+		PDDocumentInformation info = document.getDocumentInformation();
+		PDDocumentCatalog cat = document.getDocumentCatalog();
+		PDMetadata metadata = cat.getMetadata();
+		System.out.println( "Page Count = " + document.getNumberOfPages() );
+		System.out.println( "Title = " + info.getTitle());
+		System.out.println( "Author = " + info.getAuthor());
+		System.out.println( "Creator = " + info.getCreator());
+		
+		if (metadata != null) {
+			System.out.println("Metadata = " + metadata.getInputStreamAsString());
+		}
+		
+	}
+
+}
