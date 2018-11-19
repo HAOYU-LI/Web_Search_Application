@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="UTF-8">
+  <meta name="description" content="PDF search">
+  <meta name="author" content="Your Name">
+  <title>pdf search</title>
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <header class="top-header">
+    <nav id="top-nav">
+      <a href="#"><img src="https://images.sftcdn.net/images/t_optimized,f_auto/p/cb321dae-a4d1-11e6-877a-00163ed833e7/1285542624/free-pdf-reader-logo.png" width="175" border="0" alt="CVPR 5 year"></a>
+<!--       <a href="#"><img src="http://openaccess.thecvf.com/img/cropped-cvf-s.jpg" width="175" height="112" border="0" alt="CVF"></a>
+ --><!--       <a href="#">About</a> -->
+    </nav>
+    <div class = "top-head">
+      <div id = "top-title">
+        <a href="#">CVPR Search</a> 
+        <br>INF 551
+      </div>
+      <div id="help">
+        These CVPR 2018 papers are the Open Access versions, provided by the <a href="#">Computer Vision Foundation.</a>
+        <br> Except for the watermark, they are identical to the accepted versions; the final published version of the proceedings is available on IEEE Xplore.
+      </div>
+      <div id="disclaimer">
+        This material is presented to ensure timely dissemination of scholarly and technical work.
+        Copyright and all rights therein are retained by authors or by other copyright holders.
+        All persons copying this information are expected to adhere to the terms and constraints invoked by each author's copyright.
+        <br><br>
+ 
+          <input type="text" id = "searchtext" name="query">
+          <input type="submit" id="search-btn" class="search-btn" value="Search">
+<!--         </form> -->
+        <!-- <a href="#" id="search-btn" class="search-btn active">
+        </a> -->
+      </div>
+    </div>
+   
+  </header>
+ 
+  <div class="container">
+    <header>
+      <p>
+      </p>
+    </header>
+
+    <section class="main-section">
+      <header>
+      <h3>Papers</h3>
+     </header>
+
+     <!--  <aside id="item-nav">
+        <div class="nav-icon">
+          <i class="fa fa-sitemap fa-2x"></i>
+        </div>
+        <nav class="main-nav">
+          <a href="#" id="title-btn" class="main-nav-btn active">
+             Title
+          </a>
+          <a href="#" id="author-btn" class="main-nav-btn">
+             Author
+          </a>
+          <a href="#" id="date-btn" class="main-nav-btn">
+             Date
+          </a>
+        </nav>
+      </aside> -->
+
+      <ul id="item-list">
+        <li class="item">
+          <div>
+            <a class="item-name" href="#"></a>
+            <p class="item-authors"></p>
+            <p class="item-pages"></p>
+            <p class="item-conference"></p>
+            <p class="item-time"></p>
+          </div>        
+        </li>
+      </ul>
+    </section>
+  </div>
+  <footer>
+    <p class="title">Group member</p>
+  <!--   <p>"Help you find the best pdf."</p> -->
+    <ul>
+      <li>     
+        <p>Haoyu Li</p>
+      </li>
+      <li>
+        <p>Wei Lin</p>
+      </li>
+     
+    </ul>
+  </footer>  
+  
+   <script src="scripts/main.js"></script>
+</body>
+</html>
