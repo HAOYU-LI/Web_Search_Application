@@ -1,0 +1,16 @@
+.item {
+    margin-top: 20px;
+    list-style: none;
+    border: 3px solid #ccc;
+    box-shadow: 5px 10px 10px #888;
+    border-radius: 10px;
+    padding: 10px;
+    width: 800px;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.item-list{
+    margin-left: 5%;
+
+}
