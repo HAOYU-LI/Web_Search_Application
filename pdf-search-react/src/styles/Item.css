@@ -10,7 +10,15 @@
     margin-right:auto;
 }
 
-.item-list{
+.item-list {
     margin-left: 5%;
+}
 
+.return-results{
+    margin-top: 20px;
+    border: 3px;
+    padding: 10px;
+    width: 800px;
+    margin-left: auto;
+    margin-right:auto;
 }

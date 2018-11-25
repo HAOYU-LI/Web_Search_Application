@@ -19,12 +19,17 @@ export class ItemList extends React.Component {
             (id)=>{
                 return(<Item key={id} id={id}/>)
             });
-
+        const itemNumber = this.props.ids.length;
 
         return (
             <div className="item-list">
+            <div className="return-results">
+                Return {itemNumber} result!
+            </div>
+            <div >
                 {items.slice(0,100)}
                 </div>
+            </div>
             )
 
     }

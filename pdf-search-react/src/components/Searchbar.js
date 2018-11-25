@@ -1,5 +1,7 @@
 import React from 'react';
+import {QElement} from './PriorityQueue';
 import { Icon, Input, AutoComplete } from 'antd';
+import PriorityQueue from 'js-priority-queue';
 
 // const Search = Input.Search;
 const Option = AutoComplete.Option;
@@ -16,11 +18,13 @@ export class Searchbar extends React.Component {
     state= {
         userInput : 'Input search text',
         dataSource: [],
+        wordFrequency : []
     };
 
 
 
     searchResult = (value) => {
+        /*
         let count = 0;
         const result = [];
         const dataSource = this.props.dataSource;
@@ -35,8 +39,31 @@ export class Searchbar extends React.Component {
                 break;
             }
         }
+        return result;
+        */
+
+        // PriorityQueue implementation with spark word count
+        let count = 0;
+        const result = [];
+        const wordFrequency = this.props.wordFrequency;
+        var pq = new PriorityQueue({ comparator: function(a, b) { return b.priority - a.priority; }, strategy: PriorityQueue.BHeapStrategy});
+        for (let i = 0; i < wordFrequency.length; i ++) {
+            let pair = wordFrequency[i].split(':');
+            let element = pair[0];
+            let priority = parseInt(pair[1]);
+            if (startWith(element.toLocaleLowerCase(), value)) {
+                //console.log(element);
+                pq.queue(new QElement(element.toLocaleLowerCase(), priority));
+            }
+        }
+
+        while(pq.length > 0 && count <= 10) {
+            result.push(pq.dequeue().element);
+            count ++;
+        }
 
         return result;
+
     }
 
 
