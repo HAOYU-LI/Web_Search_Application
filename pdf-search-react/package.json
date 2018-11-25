@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "antd": "^3.10.8",
+    "js-priority-queue": "^0.1.5",
     "package.json": "^2.0.1",
     "react": "^16.6.3",
     "react-autosuggest": "^9.4.2",
