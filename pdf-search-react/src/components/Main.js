@@ -20,7 +20,7 @@ export class Main extends React.Component {
     }
 
 
-    componentDidMount() {
+    componentWillMount() {
         this.loadIndexAll();
         this.loadIndexTitle();
         this.loadIndexAuthor();
@@ -123,7 +123,7 @@ export class Main extends React.Component {
         for(let word of inputArray.values()){
             console.log(word);
             for(let k in pdfIndex){
-                if (k.includes (word)){
+                if (k.startsWith(word)){
                     for(let id of pdfIndex[k].values()){
                        //console.log(id);
                        if(cnt.has(id)){
@@ -136,7 +136,7 @@ export class Main extends React.Component {
                 }
             }
         }
-        console.log(cnt);
+        //console.log(cnt);
 
         for( let i = inputWordLength; i>0;i--){
             for(let [key, value] of cnt){
@@ -198,7 +198,7 @@ export class Main extends React.Component {
         return (
             <div className="main">
 
-                <Searchbar handleSearch={this.handleSearch}/>
+                <Searchbar handleSearch={this.handleSearch} dataSource = {this.state.indexTitle}/>
                 <div className="item-section">
                     <nav className = "radio-group">
                         <Filter  filterChange={this.filterChange}/>
