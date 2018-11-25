@@ -1,8 +1,9 @@
-.radio{
-    display: block;
+.Radio{
+    display : block;
     height: 30px;
     lineHeight: 30px;
 }
+
 .radio-group{
     margin-top: 30px;
     width: 80px;

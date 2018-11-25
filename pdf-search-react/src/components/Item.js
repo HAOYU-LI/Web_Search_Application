@@ -26,8 +26,8 @@ export class Item extends React.Component {
                 console.log(e.message);
                 this.setState({error: e.message});
             })
-
     }
+
     render() {
         return (
             <li className = 'item'>
