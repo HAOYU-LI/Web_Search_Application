@@ -2,7 +2,7 @@ import React from 'react';
 import { Searchbar } from  './Searchbar';
 import { ItemList } from  './ItemList';
 import { Filter } from  './Filter';
-import {API_ROOT, index_params, title_params, author_params, conference_params, year_params} from '../constants';
+import {API_ROOT, index_params, title_params, author_params, conference_params, year_params, word_priority} from '../constants';
 
 
 export class Main extends React.Component {
@@ -14,6 +14,7 @@ export class Main extends React.Component {
         indexAuthor:{},
         indexConference:{},
         indexYear:{},
+        wordPriority:{},
         FilterOption: 1,
         // ids:[],
 
@@ -26,6 +27,7 @@ export class Main extends React.Component {
         this.loadIndexAuthor();
         this.loadIndexConference();
         this.loadIndexYear();
+        this.loadWordPriority();
     }
 
     loadIndexAll = () => {
@@ -44,6 +46,24 @@ export class Main extends React.Component {
             this.setState({error: e.message});
         });
     }
+
+    loadWordPriority = () => {
+        return fetch(`${API_ROOT}/${word_priority}.json`, {
+            method: 'GET',
+        }).then((response) => {
+            if (response.ok) {
+                return response.json();
+            }
+        }).then((data) => {
+            console.log(data);
+            this.setState({wordPriority: data});
+
+        }).catch((e) => {
+            console.log(e.message);
+            this.setState({error: e.message});
+        });
+    }
+
     loadIndexTitle = () => {
         return fetch(`${API_ROOT}/${title_params}.json`, {
             method: 'GET',
@@ -60,6 +80,7 @@ export class Main extends React.Component {
             this.setState({error: e.message});
         });
     }
+
     loadIndexAuthor = () => {
         return fetch(`${API_ROOT}/${author_params}.json`, {
             method: 'GET',
@@ -198,7 +219,7 @@ export class Main extends React.Component {
         return (
             <div className="main">
 
-                <Searchbar handleSearch={this.handleSearch} dataSource = {this.state.indexTitle}/>
+                <Searchbar handleSearch={this.handleSearch} dataSource = {this.state.indexTitle} wordFrequency = {this.state.wordPriority}/>
                 <div className="item-section">
                     <nav className = "radio-group">
                         <Filter  filterChange={this.filterChange}/>

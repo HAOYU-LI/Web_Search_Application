@@ -4,4 +4,5 @@ export const title_params = 'indexes/title';
 export const author_params = 'indexes/author';
 export const conference_params = 'indexes/conference';
 export const year_params = 'indexes/year';
+export const word_priority = 'word_priority';
 export const pdf_params = 'cvpr';
