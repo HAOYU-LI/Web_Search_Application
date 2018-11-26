@@ -203,7 +203,7 @@ export class Main extends React.Component {
         return (
             <div className="main">
 
-                <Searchbar handleSearch={this.handleSearch} dataSource = {this.state.indexTitle}/>
+                <Searchbar handleSearch={this.handleSearch} dataSource = {this.state.indexTitle} wordFrequency={this.state.indexTitle}/>
                 <div className="item-section">
                     <nav className = "radio-group">
                         <Filter  filterChange={this.filterChange}/>
