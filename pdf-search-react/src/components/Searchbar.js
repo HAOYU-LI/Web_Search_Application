@@ -43,7 +43,6 @@ export class Searchbar extends React.Component {
         */
 
         // PriorityQueue implementation with spark word count
-        let count = 0;
         const result = [];
         const wordFrequency = this.props.wordFrequency;
         var pq = new PriorityQueue({ comparator: function(a, b) { return b.priority - a.priority; }, strategy: PriorityQueue.BHeapStrategy});
@@ -57,8 +56,10 @@ export class Searchbar extends React.Component {
             }
         }
 
+        let count = 1;
         while(pq.length > 0 && count <= 10) {
-            result.push(pq.dequeue().element);
+            let PQele = pq.dequeue();
+            result.push(PQele.element + " : prio=" + count );
             count ++;
         }
 
