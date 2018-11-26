@@ -3,7 +3,7 @@ import { Searchbar } from  './Searchbar';
 import { ItemList } from  './ItemList';
 import { Filter } from  './Filter';
 import {API_ROOT, index_params, title_params, author_params, conference_params, year_params} from '../constants';
-
+import { Pagination } from 'antd';
 
 export class Main extends React.Component {
 
@@ -15,12 +15,15 @@ export class Main extends React.Component {
         indexConference:{},
         indexYear:{},
         FilterOption: 1,
+
+
+
         // ids:[],
 
     }
 
 
-    componentDidMount() {
+    componentWillMount() {
         this.loadIndexAll();
         this.loadIndexTitle();
         this.loadIndexAuthor();
@@ -123,30 +126,32 @@ export class Main extends React.Component {
         for(let word of inputArray.values()){
             console.log(word);
             for(let k in pdfIndex){
-                if (k.includes (word)){
+                if (k.startsWith(word)){
+                    //console.log(k);
                     for(let id of pdfIndex[k].values()){
-                       //console.log(id);
-                       if(cnt.has(id)){
-                           cnt.set(id,cnt.get(id)+1);
-                       }
-                       else{
-                           cnt.set(id,1);
-                       }
+                        //console.log(id);
+                        if(cnt.has(id)){
+                            cnt.set(id,cnt.get(id)+1);
+                        }
+                        else{
+                            cnt.set(id,1);
+                        }
                     }
                 }
             }
         }
-        console.log(cnt);
+        //console.log(cnt);
 
         for( let i = inputWordLength; i>0;i--){
             for(let [key, value] of cnt){
-                if(value == i){
+                if(value >= i){
                     ids.push(key);
+                    cnt.delete(key);
                 }
             }
         }
-
-        return <ItemList ids ={ids}/>
+        console.log(ids);
+        return <ItemList ids ={ids} pageNum = {1}/>
     }
 
     ListItem = () => {
@@ -180,6 +185,7 @@ export class Main extends React.Component {
                 userInput : value
             };
         });
+
     }
 
     filterChange = (value) => {
@@ -193,12 +199,11 @@ export class Main extends React.Component {
     }
 
 
-
-    render() {
+    render(){
         return (
             <div className="main">
 
-                <Searchbar handleSearch={this.handleSearch}/>
+                <Searchbar handleSearch={this.handleSearch} dataSource = {this.state.indexTitle}/>
                 <div className="item-section">
                     <nav className = "radio-group">
                         <Filter  filterChange={this.filterChange}/>
@@ -209,6 +214,7 @@ export class Main extends React.Component {
                     }
                 </div>
             </div>
+
         );
     }
 
