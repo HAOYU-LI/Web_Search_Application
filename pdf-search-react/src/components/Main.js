@@ -16,6 +16,9 @@ export class Main extends React.Component {
         indexYear:{},
         wordPriority:{},
         FilterOption: 1,
+
+
+
         // ids:[],
 
     }
@@ -146,28 +149,28 @@ export class Main extends React.Component {
             for(let k in pdfIndex){
                 if (k.startsWith(word)){
                     for(let id of pdfIndex[k].values()){
-                       //console.log(id);
-                       if(cnt.has(id)){
-                           cnt.set(id,cnt.get(id)+1);
-                       }
-                       else{
-                           cnt.set(id,1);
-                       }
+                        //console.log(id);
+                        if(cnt.has(id)){
+                            cnt.set(id,cnt.get(id)+1);
+                        }
+                        else{
+                            cnt.set(id,1);
+                        }
                     }
                 }
             }
         }
-        //console.log(cnt);
 
         for( let i = inputWordLength; i>0;i--){
             for(let [key, value] of cnt){
-                if(value == i){
+                if(value >= i){
                     ids.push(key);
+                    cnt.delete(key);
                 }
             }
         }
-
-        return <ItemList ids ={ids}/>
+        console.log(ids);
+        return <ItemList ids ={ids} pageNum = {1}/>
     }
 
     ListItem = () => {
@@ -201,6 +204,7 @@ export class Main extends React.Component {
                 userInput : value
             };
         });
+
     }
 
     filterChange = (value) => {
@@ -214,8 +218,7 @@ export class Main extends React.Component {
     }
 
 
-
-    render() {
+    render(){
         return (
             <div className="main">
 
@@ -230,6 +233,7 @@ export class Main extends React.Component {
                     }
                 </div>
             </div>
+
         );
     }
 

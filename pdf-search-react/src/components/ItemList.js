@@ -1,36 +1,49 @@
 import React from 'react';
 import { Item } from './Item';
+import { Pagination } from 'antd';
+
 
 export class ItemList extends React.Component {
+    state = {
+        current: 1,
+    }
 
+    componentWillReceiveProps(){
+        this.setState({current : 1});
+    }
+
+    onChange = (page) => {
+        this.setState({
+            current: page,
+        });
+
+    }
     render() {
         // const items = [];
         console.log(this.props.ids);
-        // this.props.ids.map(
-        //     (id)=>{
-        //    <item id={id}/>
-        // });
-        // this.props.ids.forEach(function(id){
-        //     items.push(
-        //         <Item key={id} id={id} />
-        //     );
-        // });
+        const itemNumber = this.props.ids.length;
         const items = this.props.ids.map(
             (id)=>{
-                return(<Item key={id} id={id}/>)
+                return(<Item key={id} id={id} />)
             });
         const itemNumber = this.props.ids.length;
 
         return (
             <div className="item-list">
-            <div className="return-results">
-                Return {itemNumber} result!
-            </div>
-            <div >
-                {items.slice(0,100)}
+
+                <div className="return-results">
+                    Return {itemNumber} result!
                 </div>
+                <Pagination current={this.state.current} onChange={this.onChange} pageSize={100} total={itemNumber} />
+                <div >
+                    {items.slice(this.state.current * 100 -100 ,this.state.current * 100)}
+                </div>
+
+
+
+
             </div>
-            )
+        )
 
     }
 }
