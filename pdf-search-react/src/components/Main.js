@@ -2,7 +2,7 @@ import React from 'react';
 import { Searchbar } from  './Searchbar';
 import { ItemList } from  './ItemList';
 import { Filter } from  './Filter';
-import {API_ROOT, index_params, title_params, author_params, conference_params, year_params} from '../constants';
+import {API_ROOT, index_params, title_params, author_params, conference_params, year_params, word_priority} from '../constants';
 
 
 export class Main extends React.Component {
@@ -14,10 +14,8 @@ export class Main extends React.Component {
         indexAuthor:{},
         indexConference:{},
         indexYear:{},
+        wordPriority:{},
         FilterOption: 1,
-
-
-
         // ids:[],
 
     }
@@ -29,6 +27,7 @@ export class Main extends React.Component {
         this.loadIndexAuthor();
         this.loadIndexConference();
         this.loadIndexYear();
+        this.loadWordPriority();
     }
 
     loadIndexAll = () => {
@@ -47,6 +46,24 @@ export class Main extends React.Component {
             this.setState({error: e.message});
         });
     }
+
+    loadWordPriority = () => {
+        return fetch(`${API_ROOT}/${word_priority}.json`, {
+            method: 'GET',
+        }).then((response) => {
+            if (response.ok) {
+                return response.json();
+            }
+        }).then((data) => {
+            console.log(data);
+            this.setState({wordPriority: data});
+
+        }).catch((e) => {
+            console.log(e.message);
+            this.setState({error: e.message});
+        });
+    }
+
     loadIndexTitle = () => {
         return fetch(`${API_ROOT}/${title_params}.json`, {
             method: 'GET',
@@ -63,6 +80,7 @@ export class Main extends React.Component {
             this.setState({error: e.message});
         });
     }
+
     loadIndexAuthor = () => {
         return fetch(`${API_ROOT}/${author_params}.json`, {
             method: 'GET',
@@ -127,7 +145,6 @@ export class Main extends React.Component {
             console.log(word);
             for(let k in pdfIndex){
                 if (k.startsWith(word)){
-                    //console.log(k);
                     for(let id of pdfIndex[k].values()){
                         //console.log(id);
                         if(cnt.has(id)){
@@ -141,7 +158,6 @@ export class Main extends React.Component {
             }
         }
         //console.log(cnt);
-
         for( let i = inputWordLength; i>0;i--){
             for(let [key, value] of cnt){
                 if(value >= i){
@@ -150,7 +166,7 @@ export class Main extends React.Component {
                 }
             }
         }
-        console.log(ids);
+        //console.log(ids);
         return <ItemList ids ={ids} pageNum = {1}/>
     }
 
@@ -185,7 +201,6 @@ export class Main extends React.Component {
                 userInput : value
             };
         });
-
     }
 
     filterChange = (value) => {
@@ -199,11 +214,12 @@ export class Main extends React.Component {
     }
 
 
-    render(){
+
+    render() {
         return (
             <div className="main">
 
-                <Searchbar handleSearch={this.handleSearch} dataSource = {this.state.indexTitle} wordFrequency={this.state.indexTitle}/>
+                <Searchbar handleSearch={this.handleSearch} dataSource = {this.state.indexTitle} wordFrequency = {this.state.wordPriority}/>
                 <div className="item-section">
                     <nav className = "radio-group">
                         <Filter  filterChange={this.filterChange}/>
@@ -214,7 +230,6 @@ export class Main extends React.Component {
                     }
                 </div>
             </div>
-
         );
     }
 

@@ -18,7 +18,7 @@ export class Searchbar extends React.Component {
     state= {
         userInput : 'Input search text',
         dataSource: [],
-        wordFrequency : []
+        wordFrequency : [],
     };
 
 
@@ -45,13 +45,14 @@ export class Searchbar extends React.Component {
         // PriorityQueue implementation with spark word count
         const result = [];
         const wordFrequency = this.props.wordFrequency;
+      //  console.log(wordFrequency);
         const pq = new PriorityQueue({ comparator: function(a, b) { return b.priority - a.priority; }, strategy: PriorityQueue.BHeapStrategy});
         for (let i = 0; i < wordFrequency.length; i ++) {
             let pair = wordFrequency[i].split(':');
             let element = pair[0];
             let priority = parseInt(pair[1]);
             if (startWith(element.toLocaleLowerCase(), value)) {
-                //console.log(element);
+             //  console.log(element);
                 pq.queue(new QElement(element.toLocaleLowerCase(), priority));
             }
         }
@@ -59,22 +60,26 @@ export class Searchbar extends React.Component {
         let count = 1;
         while(pq.length > 0 && count <= 10) {
             let PQele = pq.dequeue();
-            result.push(PQele.element + " : prio=" + count );
+            result.push(PQele.element );
+            //result.push({key:count,value: PQele.element});
             count ++;
         }
+        //console.log(result);
 
         return result;
 
-    }
+        }
+
+
 
 
     onInputChange = (value) =>{
-        console.log(value);
+       // console.log(value);
         this.setState({userInput : value});
         this.setState({
             dataSource: !value ? [] : this.searchResult(value)
         });
-        console.log(this.searchResult(value))
+        //console.log(this.searchResult(value))
     }
 
     onSearch = () =>  {
@@ -89,23 +94,30 @@ export class Searchbar extends React.Component {
         console.log("select");
     }
 
+    // onMap = (result)=>{
+    //     return result.map(
+    //         (item) => {
+    //
+    //             return(
+    //                 <Option className="show-all" key={item.key} value={item.value} >
+    //                     <p>
+    //                         {item.value}
+    //                     </p>
+    //                 </Option>
+    //             )
+    //
+    //     })
+    //
+    //
+    // }
+
 
 
 
     render() {
-        const dataIndex =  this.props.datasource;
 
 
-        //
-        // const options = dataIndex.map(item => (
-        //
-        //     <Option className="show-all" key={item.index} value={"word"} >
-        //         <p>
-        //             {item.key}
-        //         </p>
-        //     </Option>
-        //     )
-        // );
+
 
 
         return (
@@ -132,11 +144,4 @@ export class Searchbar extends React.Component {
 
 
 
-{/*<Search*/}
-{/*placeholder= {this.state.userInput}*/}
-{/*enterButton="Search"*/}
-{/*size="large"*/}
-{/*onChange = {this.onInputChange}*/}
 
-{/*onSearch ={this.on_search}*/}
-{/*/>*/}
