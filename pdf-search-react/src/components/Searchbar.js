@@ -50,7 +50,7 @@ export class Searchbar extends React.Component {
             let pair = wordFrequency[i].split(':');
             let element = pair[0];
             let priority = parseInt(pair[1]);
-            if (startWith(element.toLocaleLowerCase(), value)) {
+            if (startWith(element.toLocaleLowerCase(), value.toLocaleLowerCase())) {
                 //console.log(element);
                 pq.queue(new QElement(element.toLocaleLowerCase(), priority));
             }
@@ -59,7 +59,7 @@ export class Searchbar extends React.Component {
         let count = 1;
         while(pq.length > 0 && count <= 10) {
             let PQele = pq.dequeue();
-            result.push(PQele.element + " : prio=" + count );
+            result.push(PQele.element);
             count ++;
         }
 

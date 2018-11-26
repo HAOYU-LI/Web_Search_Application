@@ -17,7 +17,6 @@ export class Main extends React.Component {
         wordPriority:{},
         FilterOption: 1,
         // ids:[],
-
     }
 
 
