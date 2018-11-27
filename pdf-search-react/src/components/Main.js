@@ -1,7 +1,9 @@
 import React from 'react';
 import { Searchbar } from  './Searchbar';
 import { ItemList } from  './ItemList';
-import { Filter } from  './Filter';
+import { FilterTreeTitle} from  './FilterTreeTitle';
+import { FilterTreeYear } from  './FilterTreeYear';
+import { FilterTreeAuthor } from  './FilterTreeAuthor';
 import {API_ROOT, index_params, title_params, author_params, conference_params, year_params, word_priority} from '../constants';
 
 
@@ -16,6 +18,10 @@ export class Main extends React.Component {
         indexYear:{},
         wordPriority:{},
         FilterOption: 1,
+        FilterAuthor: [],
+        FilterTitle: [],
+        FilterConference: [],
+        FilterYear: [],
         // ids:[],
 
     }
@@ -38,7 +44,7 @@ export class Main extends React.Component {
                 return response.json();
             }
         }).then((data) => {
-            console.log(data);
+            //console.log(data);
             this.setState({indexAll: data});
 
         }).catch((e) => {
@@ -55,7 +61,7 @@ export class Main extends React.Component {
                 return response.json();
             }
         }).then((data) => {
-            console.log(data);
+            //console.log(data);
             this.setState({wordPriority: data});
 
         }).catch((e) => {
@@ -72,7 +78,7 @@ export class Main extends React.Component {
                 return response.json();
             }
         }).then((data) => {
-            console.log(data);
+            //console.log(data);
             this.setState({indexTitle: data});
 
         }).catch((e) => {
@@ -89,7 +95,7 @@ export class Main extends React.Component {
                 return response.json();
             }
         }).then((data) => {
-            console.log(data);
+            //console.log(data);
             this.setState({indexAuthor: data});
 
         }).catch((e) => {
@@ -105,7 +111,7 @@ export class Main extends React.Component {
                 return response.json();
             }
         }).then((data) => {
-            console.log(data);
+            //console.log(data);
             this.setState({indexConference: data});
 
         }).catch((e) => {
@@ -121,7 +127,7 @@ export class Main extends React.Component {
                 return response.json();
             }
         }).then((data) => {
-            console.log(data);
+            //console.log(data);
             this.setState({indexYear: data});
 
         }).catch((e) => {
@@ -158,7 +164,7 @@ export class Main extends React.Component {
             }
         }
         //console.log(cnt);
-        for( let i = inputWordLength; i>0;i--){
+        for( let i = inputWordLength+2; i>0;i--){
             for(let [key, value] of cnt){
                 if(value >= i){
                     ids.push(key);
@@ -166,12 +172,43 @@ export class Main extends React.Component {
                 }
             }
         }
+
+
+        const yearID = this.ReturnYearId(this.state.FilterYear);
+        const AuthorID = this.ReturnAuthorId(this.state.FilterAuthor);
+        const KeyID = this.ReturnKeywordsId(this.state.FilterTitle);
+
+        if (yearID.length == 0 && AuthorID.length == 0 && KeyID.length == 0){ return <ItemList ids ={ids} pageNum = {1}/> }
+
+
+        let yearSet   = new Set(yearID);
+        let authorSet = new Set(AuthorID);
+        let keySet = new Set(KeyID);
+
+
+
+        let intersection =  (AuthorID.length != 0 && yearID.length != 0) ? [...new Set([...yearID].filter(x => authorSet.has(x)))] : [...new Set([...yearSet,...authorSet])];
+        console.log(intersection);
+        console.log(keySet);
+        let intersecSet = new Set(intersection);
+        intersection =  (KeyID.length != 0 && intersection.length != 0 ) ? [...new Set([...intersection].filter(x => keySet.has(x)))] : [...new Set([...intersecSet,...keySet])];
+        console.log(intersection);
+
+
+        let searchSet = new Set(ids);
+
+         intersection =  (intersection.length == 0) ? [] : [...new Set([...intersection].filter(x => searchSet.has(x)))];
+
+        console.log(intersection);
+
+
+
         //console.log(ids);
-        return <ItemList ids ={ids} pageNum = {1}/>
+        return <ItemList ids ={intersection} pageNum = {1}/>
     }
 
     ListItem = () => {
-        console.log(this.state.FilterOption);
+        //console.log(this.state.FilterOption);
         switch (this.state.FilterOption) {
             case 1:
                 return this.searchByIndex(this.state.indexAll);
@@ -203,16 +240,139 @@ export class Main extends React.Component {
         });
     }
 
-    filterChange = (value) => {
-
-        this.setState((prevState) => {
-            return{
-                FilterOption : value
-            };
-        });
+    // filterChange = (value) => {
+    //
+    //     this.setState((prevState) => {
+    //         return{
+    //             FilterOption : value
+    //         };
+    //     });
+    //
+    // }
+    getTitleFilter = (value) =>{
+        console.log(value);
+        this.setState({FilterTitle:value});
 
     }
 
+    getAuthorFilter = (value) =>{
+        console.log(value);
+        this.setState({FilterAuthor:value});
+
+    }
+    getConferenceFilter = (value) =>{
+        console.log(value);
+        this.setState({FilterConference:value});
+
+    }
+    getYearFilter = (value) =>{
+        console.log(value);
+        this.setState({FilterYear:value});
+
+    }
+
+
+
+    ReturnYearId = (value) =>{
+        //console.log(value);
+        const ids = [];
+        // console.log(pdfIndex);
+
+        const pdfIndex = this.state.indexYear;
+
+        for(let word of value.values()){
+            //console.log(word);
+            for(let k in pdfIndex){
+                if (k == word) {
+                    for(let id of pdfIndex[k].values()){
+                        //console.log(id);
+                       ids.push(id);
+                    }
+                }
+            }
+        }
+        //console.log(ids);
+        return ids;
+    }
+
+
+    ReturnAuthorId = (value) =>{
+        //console.log(value);
+        const ids = [];
+        // console.log(pdfIndex);
+
+        const pdfIndex = this.state.indexAuthor;
+
+        for(let words of value.values()){
+            //console.log(word);
+            for (let word of words.split(' ').values()){
+                for(let k in pdfIndex){
+                    if (k == word.toLocaleLowerCase()) {
+                        for(let id of pdfIndex[k].values()){
+                            // console.log(id);
+                            ids.push(id);
+                        }
+                        break;
+                    }
+                }
+            }
+        }
+       // console.log(ids);
+        return ids;
+    }
+
+    ReturnKeywordsId = (value) =>{
+        //console.log(value);
+        const ids = [];
+        // console.log(pdfIndex);
+
+        const pdfIndex = this.state.indexTitle;
+
+        for(let word of value.values()){
+            console.log(word);
+            for(let k in pdfIndex){
+                if (k == word) {
+                    for(let id of pdfIndex[k].values()){
+                         console.log(id);
+                        ids.push(id);
+                    }
+                }
+            }
+        }
+        // console.log(ids);
+        return ids;
+    }
+    //
+    // getIntersectionIndex = (category_Index) => {
+    //     // category_Index = {"author" : [...], "title" : [...]}
+    //     const count = category_Index.size;
+    //     const result = new Map();
+    //     const lst = [];
+    //     let index = 0;
+    //     for (let category in category_Index) {
+    //         let cur_list = category_Index.get(category);
+    //         for ( let i = 0; i < cur_list.length; i ++) {
+    //             if (index == 0) {
+    //                 result.set(cur_list[i], 1);
+    //             } else {
+    //                 if (result.has(cur_list[i])) {
+    //                     result.set(cur_list[i], result.get(cur_list[i]) + 1);
+    //                 }
+    //             }
+    //         }
+    //         index += 1;
+    //     }
+    //
+    //     for (let key in result) {
+    //         if (result.get(key) == count) {
+    //             lst.push(key);
+    //         }
+    //     }
+    //
+    //     console.log(lst);
+    //
+    //     return lst;
+    // }
 
 
     render() {
@@ -222,7 +382,33 @@ export class Main extends React.Component {
                 <Searchbar handleSearch={this.handleSearch} dataSource = {this.state.indexTitle} wordFrequency = {this.state.wordPriority}/>
                 <div className="item-section">
                     <nav className = "radio-group">
-                        <Filter  filterChange={this.filterChange}/>
+                        <FilterTreeTitle
+                            // filterChange={this.filterChange}
+                            name = 'title'
+                            input = {this.state.userInput}
+                            Index = {this.state.indexTitle}
+                            getFilter = {this.getTitleFilter}
+                        />
+
+                        <FilterTreeAuthor
+                           // filterChange={this.filterChange}
+                            input = {this.state.userInput}
+                            Index = {this.state.indexAuthor}
+                            getFilter = {this.getAuthorFilter}
+                        />
+                        {/*<FilterTree*/}
+                            {/*name = 'conference'*/}
+                            {/*// filterChange={this.filterChange}*/}
+                            {/*input = {this.state.userInput}*/}
+                            {/*Index = {this.state.indexConference}*/}
+                            {/*getFilter = {this.getConferenceFilter}*/}
+                        {/*/>*/}
+                        <FilterTreeYear
+                            // filterChange={this.filterChange}
+                            input = {this.state.userInput}
+                            Index = {this.state.indexYear}
+                            getFilter = {this.getYearFilter}
+                        />
                     </nav>
                     {(this.state.userInput.length == 0 )
                         ? null :

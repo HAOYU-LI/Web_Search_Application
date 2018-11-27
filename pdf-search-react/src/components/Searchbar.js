@@ -1,6 +1,6 @@
 import React from 'react';
 import {QElement} from './PriorityQueue';
-import { Icon, Input, AutoComplete } from 'antd';
+import { Icon, Button, Input, AutoComplete} from 'antd';
 import PriorityQueue from 'js-priority-queue';
 
 // const Search = Input.Search;
@@ -16,7 +16,7 @@ function startWith(k, value) {
 
 export class Searchbar extends React.Component {
     state= {
-        userInput : 'Input search text',
+        userInput : '',
         dataSource: [],
         wordFrequency : [],
     };
@@ -84,7 +84,7 @@ export class Searchbar extends React.Component {
 
     onSearch = () =>  {
         console.log(this.state.userInput);
-        const strContent = this.state.userInput.toLocaleLowerCase().trim().split(/\s+/);
+        const strContent = this.state.userInput.toLocaleLowerCase().replace(/[\~|\`|\!|\@|\#|\$|\%|\^|\&|\*|\(|\)|\-|\_|\+|\=|\||\\|\[|\]|\{|\}|\;|\"|\'|\,|\.|\/|\?]/g,"").trim().split(/\s+/);
         //console.log(strContent);
         this.props.handleSearch(strContent);
 
@@ -135,8 +135,10 @@ export class Searchbar extends React.Component {
                     onChange={this.onInputChange}
                     onSearch={this.handleSearch}
                 >
-                    <Input  suffix={<Icon onClick={this.onSearch} type="search" className="certain-category-icon" />} />
                 </AutoComplete>
+                <Button className="search-btn" size="large" type="primary" onClick={this.onSearch} >
+                    <Icon type="search" />
+                </Button>
             </div>
         );
     }
