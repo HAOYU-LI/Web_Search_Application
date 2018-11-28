@@ -20,13 +20,13 @@ export class ItemList extends React.Component {
     }
     render() {
         // const items = [];
-        console.log(this.props.ids);
+        //console.log(this.props.ids);
         const itemNumber = this.props.ids.length;
         const items = this.props.ids.map(
             (id)=>{
                 return(<Item key={id} id={id} />)
             });
-        const itemNumber = this.props.ids.length;
+
 
         return (
             <div className="item-list">
@@ -34,13 +34,10 @@ export class ItemList extends React.Component {
                 <div className="return-results">
                     Return {itemNumber} result!
                 </div>
-                <Pagination current={this.state.current} onChange={this.onChange} pageSize={100} total={itemNumber} />
+                <Pagination current={this.state.current} onChange={this.onChange} pageSize={50} total={itemNumber} />
                 <div >
-                    {items.slice(this.state.current * 100 -100 ,this.state.current * 100)}
+                    {items.slice(this.state.current * 50 -50 ,this.state.current * 50)}
                 </div>
-
-
-
 
             </div>
         )
