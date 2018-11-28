@@ -22,6 +22,37 @@ export class Main extends React.Component {
         // ids:[],
     }
 
+    /*getIntersectionIndex = (category_Index) => {
+        // category_Index = {"author" : [...], "title" : [...]}
+        const count = category_Index.size;
+        const result = new Map();
+        const lst = [];
+        let index = 0;
+        for (let category in category_Index) {
+            let cur_list = category_Index.get(category);
+            for ( let i = 0; i < cur_list.length; i ++) {
+                if (index == 0) {
+                    result.set(cur_list[i], 1);
+                } else {
+                    if (result.has(cur_list[i])) {
+                        result.set(cur_list[i], result.get(cur_list[i]) + 1);
+                    }
+                }
+            }
+            index += 1;
+        }
+
+        for (let key in result) {
+            if (result.get(key) == count) {
+                lst.push(key);
+            }
+        }
+
+        console.log(lst);
+
+        return lst;
+    }*/
+
 
     componentWillMount() {
         this.loadIndexAll();

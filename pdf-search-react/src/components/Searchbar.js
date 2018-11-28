@@ -22,7 +22,6 @@ export class Searchbar extends React.Component {
     };
 
 
-
     searchResult = (value) => {
         /*
         let count = 0;
